@@ -211,20 +211,22 @@ $register-banner-image: none;
 //-----------------
 // Override CSS
 //-----------------
-html {
+
+
+/*html {
     background-color: $secondary-25 !important;
-}
+}*/
 
 //-----------------
 // Header Styling
 //-----------------
-.home>header {
+/*.home>header {
     height: 500px;
 
     .outer-wrapper {
         padding: 120px 0 !important;
     }
-}
+}*/
 
 //-----------------
 // Footer Styling
@@ -235,29 +237,153 @@ html {
     footer {
         max-width: 1180px;
         margin: 0 auto;
-
-        .colophon {
-            width: 80%;
-            float: left;
-
-            .nav-colophon li {
-                display: inline-block;
-                height: 35px;
-                float: left;
-                margin: 0 20px 20px 0;
+        height: 450px;
+        overflow-x: hidden;
+        background-color: rgba(121, 151, 151, 0.8);
+        position: relative;
+        
+    }
+    
+    .footer-title {
+        h5 {
+			width: 348px;
+			height: 28px;
+			font-family: $font_0;
+			font-size: 24px;
+			color: $white;
+			position: absolute;
+			left: 122px;
+			bottom: 328px;
+			top: 94px;
+		}
+        
+        p {
+			width: 661px;
+			height: 128px;
+			font-family: $font_0;
+			font-size: 20px;
+			font-weight: 100;
+			line-height: 1.6;
+			color: $black;
+			position: absolute;
+			left: 119px;
+			top: 147px;
+			bottom: 175px;
+        }
+    }
+    
+    #icon1 {
+		width: 50px;
+		height: 50px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		background-color: $white;
+		position: absolute;
+		left: 120px;
+		bottom: 94px;
+		top: 306px;
+	}
+	#icon2 {
+		width: 50px;
+		height: 50px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		background-color: $white;
+		position: absolute;
+		left: 210px;
+		bottom: 94px;
+		top: 306px;
+	}
+	#icon3 {
+		width: 50px;
+		height: 50px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		background-color: $white;
+		position: absolute;
+		left: 300px;
+		bottom: 94px;
+		top: 306px;
+	}
+	#icon4 {
+		width: 50px;
+		height: 50px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		background-color: $white;
+		position: absolute;
+		left: 390px;
+		bottom: 94px;
+		top: 306px;
+	}
+    
+    .footer-text-contact {
+        
+        h5 {
+			width: 86px;
+			height: 28px;
+			font-family: $font_0;
+			font-size: 24px;
+			color: $white;
+			position: absolute;
+			left: 881px;
+			top: 94px;
+			bottom: 328px;
+		}
+		p {
+			width: 217px;
+			height: 160px;
+			font-family: $font_0;
+			font-size: 20px;
+			font-weight: 100;
+			line-height: 1.6;
+			color: $black;
+			position: absolute;
+			left: 881px;
+			top: 153px;
+			bottom: 137px;
+		}
+    }
+    
+    .footer-right {
+        
+        h5 {
+            width: 57px;    
+            height: 28px;
+            font-family: $font_0;
+            font-size: 24px;
+            color: $white;
+            position: absolute;
+            right: 199px;
+            top: 94px;
+            bottom: 328px;
+        }
+        
+        ul {
+            list-style: none;
+            margin-left: -40px;
+            li {
+                line-height: 24px;
+                padding-bottom: 22px;
+                a {
+                    text-decoration: none;
+                    color: $black;
+                    width: 71px;
+                    height: 28px;
+                    font-family: $font_0;
+                    font-size: 24px;
+                    padding-bottom: 50px;
+                }
+                
             }
         }
-
-        .references {
-            width: 15%;
-            float: right;
-        }
     }
-
-    .copyright {
-        clear: both;
-    }
-}
+    
+    
+    
+    
+    
+    
 
 //-----------------
 // TOS Styling
@@ -1027,172 +1153,7 @@ body {
 		}
 	}
 }
-footer {
-	#rectangle-footer {
-		width: 100%;
-		height: 450px;
-		margin: 0;
-		padding: 0;
-		overflow-x: hidden;
-		background-color: $color_sea_nymph_80_approx;
-		position: relative;
-	}
-	#icon1 {
-		width: 50px;
-		height: 50px;
-		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-		border-radius: 5px;
-		background-color: $white;
-		position: absolute;
-		left: 120px;
-		bottom: 94px;
-		top: 306px;
-	}
-	#icon2 {
-		width: 50px;
-		height: 50px;
-		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-		border-radius: 5px;
-		background-color: $white;
-		position: absolute;
-		left: 210px;
-		bottom: 94px;
-		top: 306px;
-	}
-	#icon3 {
-		width: 50px;
-		height: 50px;
-		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-		border-radius: 5px;
-		background-color: $white;
-		position: absolute;
-		left: 300px;
-		bottom: 94px;
-		top: 306px;
-	}
-	#icon4 {
-		width: 50px;
-		height: 50px;
-		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-		border-radius: 5px;
-		background-color: $white;
-		position: absolute;
-		left: 390px;
-		bottom: 94px;
-		top: 306px;
-	}
-	.Texts1 {
-		h5 {
-			width: 348px;
-			height: 28px;
-			font-family: $font_0;
-			font-size: 24px;
-			color: $white;
-			position: absolute;
-			left: 122px;
-			bottom: 328px;
-			top: 94px;
-		}
-		p {
-			width: 661px;
-			height: 128px;
-			font-family: $font_0;
-			font-size: 20px;
-			font-weight: 100;
-			line-height: 1.6;
-			color: $black;
-			position: absolute;
-			left: 119px;
-			top: 147px;
-			bottom: 175px;
-		}
-	}
-	.Texts2 {
-		h5 {
-			width: 86px;
-			height: 28px;
-			font-family: $font_0;
-			font-size: 24px;
-			color: $white;
-			position: absolute;
-			left: 881px;
-			top: 94px;
-			bottom: 328px;
-		}
-		p {
-			width: 217px;
-			height: 160px;
-			font-family: $font_0;
-			font-size: 20px;
-			font-weight: 100;
-			line-height: 1.6;
-			color: $black;
-			position: absolute;
-			left: 881px;
-			top: 153px;
-			bottom: 137px;
-		}
-	}
-	.Texts3 h5 {
-		width: 57px;
-		height: 28px;
-		font-family: $font_0;
-		font-size: 24px;
-		color: $white;
-		position: absolute;
-		right: 199px;
-		top: 94px;
-		bottom: 328px;
-	}
-	.Texts4 h5 {
-		width: 60px;
-		height: 28px;
-		font-family: $font_0;
-		font-size: 24px;
-		font-weight: 100;
-		color: $black;
-		position: absolute;
-		right: 196px;
-		top: 154px;
-		bottom: 268px;
-	}
-	.Texts5 h5 {
-		width: 71px;
-		height: 28px;
-		font-family: $font_0;
-		font-size: 24px;
-		font-weight: 100;
-		color: $black;
-		position: absolute;
-		right: 185px;
-		top: 214px;
-		bottom: 208px;
-	}
-	.Texts6 h5 {
-		width: 71px;
-		height: 28px;
-		font-family: $font_0;
-		font-size: 24px;
-		font-weight: 100;
-		color: $black;
-		position: absolute;
-		right: 185px;
-		top: 274px;
-		bottom: 148px;
-	}
-	.Texts7 h5 {
-		width: 56px;
-		height: 28px;
-		font-family: $font_0;
-		font-size: 24px;
-		font-weight: 100;
-		color: $black;
-		position: absolute;
-		right: 198px;
-		top: 334px;
-		bottom: 88px;
-	}
-}
+
 
 
 
