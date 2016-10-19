@@ -420,6 +420,7 @@ $black_24: rgba(0, 0, 0, 0.24);
 $font_0: HelveticaNeue;
 $font_1: Helvetica;
 
+/*    
 body {
 	main {
 		#corporate-training {
@@ -897,7 +898,7 @@ body {
 					#rectangle53 {
 						width: 105px;
 						height: 400px;
-						//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+						
 						border-radius: 5px;
 						color: $black;
 						position: absolute;
@@ -948,7 +949,7 @@ body {
 					#rectangle53 {
 						width: 105px;
 						height: 400px;
-						//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+						
 						border-radius: 5px;
 						color: $black;
 						position: absolute;
@@ -1153,7 +1154,7 @@ body {
 		}
 	}
 }
-
+*/
 
 
 
