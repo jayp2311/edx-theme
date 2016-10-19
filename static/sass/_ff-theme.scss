@@ -34,8 +34,22 @@ $gray-2: #f2f2f2;
 $gray-1: #fbfbfb; //Main BG Color
 $white: $gray-1;
 
-$black: #2e2e2e;
 $black-80: #585858;
+
+//colors
+$color_sea_nymph_80_approx: rgba(121, 151, 151, 0.8);
+$white: #ffffff;
+$black: #000000;
+$black_25: rgba(0, 0, 0, 0.25);
+$black_50: rgba(0, 0, 0, 0.5);
+$color_falu_red_approx: #7d1419;
+$color_tana_approx: #d6d9bb;
+$black_12: rgba(0, 0, 0, 0.12);
+$black_24: rgba(0, 0, 0, 0.24);
+
+//fonts
+$font_0: HelveticaNeue;
+$font_1: Helvetica;
 
 
 
@@ -195,6 +209,8 @@ $register-banner-image: none;
 //-----------------
 //  Mixin Styles
 //-----------------
+
+/*
 @mixin login_register_h1_style {
     clip: auto !important;
     height: 50px;
@@ -206,6 +222,7 @@ $register-banner-image: none;
     margin: 0 !important;
     text-align: right;
 }
+*/
 
 
 //-----------------
@@ -383,7 +400,8 @@ $register-banner-image: none;
     
     
     
-    
+
+/*
 
 //-----------------
 // TOS Styling
@@ -396,7 +414,7 @@ section.tos {
         margin: 50px 0;
     }
 }
-
+*/
 
 
 //-----------------
@@ -405,20 +423,7 @@ section.tos {
 
 
 
-//colors
-$color_sea_nymph_80_approx: rgba(121, 151, 151, 0.8);
-$white: #ffffff;
-$black: #000000;
-$black_25: rgba(0, 0, 0, 0.25);
-$black_50: rgba(0, 0, 0, 0.5);
-$color_falu_red_approx: #7d1419;
-$color_tana_approx: #d6d9bb;
-$black_12: rgba(0, 0, 0, 0.12);
-$black_24: rgba(0, 0, 0, 0.24);
 
-//fonts
-$font_0: HelveticaNeue;
-$font_1: Helvetica;
 
 /*    
 body {
