@@ -136,8 +136,7 @@ $serif: $theme-serif-font, $serif;
 .wrapper-footer footer .footer-right ul {
   list-style: none;
   margin-left: -40px;
-    position: absolute;
-    right: 
+     
 }
 .wrapper-footer footer .footer-right ul li {
   line-height: 24px;
@@ -151,6 +150,10 @@ $serif: $theme-serif-font, $serif;
   font-family: HelveticaNeue;
   font-size: 24px;
   padding-bottom: 50px;
+    position: absolute;
+    right: 79px;
+    top: 94px;
+    
 }
 .wrapper-footer .footer-right h5 {
   width: 57px;
