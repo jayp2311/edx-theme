@@ -251,6 +251,7 @@ $register-banner-image: none;
     margin: 0px;
     background-color: $white;
     max-width:100%;
+    position: relative;
     
     #testimonials {
 			#rectangle-65copy {
@@ -260,7 +261,7 @@ $register-banner-image: none;
 				padding: 0;
 				overflow-x: hidden;
 				background-color: $white;
-				position: relative;
+				position: absolute;
 			}
 			#duplicate-control {
 				max-width: 100%;
@@ -445,7 +446,7 @@ $register-banner-image: none;
         padding: 0px;
         overflow-x: hidden;
         background-color: rgba(121, 151, 151, 0.8);
-        position: relative;
+        position: absolute;
         
     .footer-title {
         h5 {
