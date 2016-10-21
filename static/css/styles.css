@@ -36,7 +36,9 @@ $serif: $theme-serif-font, $serif;
 }*/
 .wrapper-footer {
   box-shadow: none !important;
-    max-width: 100;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 .wrapper-footer footer {
   max-width: 1180px;
