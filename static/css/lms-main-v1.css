@@ -116,7 +116,7 @@ $serif: $theme-serif-font, $serif;
   font-size: 24px;
   color: #ffffff;
   position: absolute;
-  left: 881px;
+  left: 861px;
   top: 94px;
   bottom: 328px;
 }
@@ -129,13 +129,15 @@ $serif: $theme-serif-font, $serif;
   line-height: 1.6;
   color: #000000;
   position: absolute;
-  left: 881px;
+  left: 861px;
   top: 153px;
   bottom: 137px;
 }
 .wrapper-footer footer .footer-right ul {
   list-style: none;
   margin-left: -40px;
+    position: absolute;
+    right: 
 }
 .wrapper-footer footer .footer-right ul li {
   line-height: 24px;
@@ -157,7 +159,7 @@ $serif: $theme-serif-font, $serif;
   font-size: 24px;
   color: #ffffff;
   position: absolute;
-  right: 199px;
+  right: 79px;
   top: 94px;
   bottom: 328px;
 }
