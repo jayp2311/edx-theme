@@ -1,0 +1,993 @@
+/*
+//-----------------
+//  Font Assignment
+//-----------------
+
+$theme-sans-font: 'Source Sans';
+$sans-serif: $theme-sans-font, $sans-serif;
+$body-font-family: $sans-serif;
+
+$theme-serif-font: 'Crimson Text';
+$serif: $theme-serif-font, $serif;
+
+
+*/
+
+//colors
+$color_sea_nymph_80_approx: rgba(121, 151, 151, 0.8);
+$white: #ffffff;
+$black: #000000;
+$black_25: rgba(0, 0, 0, 0.25);
+$black_50: rgba(0, 0, 0, 0.5);
+$color_falu_red_approx: #7d1419;
+$color_tana_approx: #d6d9bb;
+$black_12: rgba(0, 0, 0, 0.12);
+$black_24: rgba(0, 0, 0, 0.24);
+
+//fonts
+$font_0: HelveticaNeue;
+$font_1: Helvetica;
+
+
+nav.wrapper-header 
+
+    #Rectangle-navbar{
+
+    width: 100%;
+    height: 72px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: $color_sea_nymph_80_approx;
+    position: relative;
+
+    }
+
+    #Rectangle-ff {
+			width: 50px;
+			height: 50px;
+			margin: 0;
+			padding: 0;
+			border-radius: 5px;
+			background-color: $white;
+			position: absolute;
+			left: 110px;
+			top: 11px;
+			bottom: 11px;
+		}
+		#Login-Rectangle {
+			width: 150px;
+			height: 40px;
+			margin: 0;
+			padding: 0;
+			
+			border-radius: 20px;
+			background-color: $white;
+			position: absolute;
+			right: 280px;
+			top: 16px;
+			
+		}
+
+        #Login-Text h4 {
+				width: 62px;
+				height: 22px;
+				margin: 0;
+				padding: 0;
+				font-family: $font_0;
+				font-size: 18px;
+				font-weight: bold;
+				text-align: center;
+				color: $black;
+				position: absolute;
+				left: 44.5px;
+				top: 10px;
+				bottom: 9px;
+			}
+		#SignUp-Rectangle {
+			width: 150px;
+			height: 40px;
+			margin: 0;
+			padding: 0;
+			
+			border-radius: 20px;
+			background-color: $white;
+			position: absolute;
+			right: 110px;
+			top: 16px;
+			
+			}
+
+        #SignUp-Text h4 {
+            width: 75px;
+            height: 22px;
+            margin: 0;
+            padding: 0;
+            font-family: $font_0;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            color: $black;
+            position: absolute;
+            left: 38px;
+            top: 10px;
+            bottom: 9px;
+		}
+		#Navbar-text h6 {
+			width: 146px;
+			height: 33px;
+			margin: 0;
+			padding: 0;
+			font-family: $font_0;
+			font-size: 24px;
+			text-align: center;
+			color: $white;
+			position: absolute;
+			left: 171.5px;
+			top: 24px;
+			bottom: 21px;
+		}
+
+
+
+.wrapper-footer {
+    
+    
+}
+.wrapper-footer footer {
+    max-width: 100%;
+  height: 450px;
+  overflow-x: hidden;
+  background-color: rgba(121, 151, 151, 0.8);
+  position: relative;
+}
+.wrapper-footer .footer-title h5 {
+  width: 348px;
+  height: 28px;
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  color: #ffffff;
+  position: absolute;
+  left: 122px;
+  bottom: 328px;
+  top: 94px;
+}
+.wrapper-footer .footer-title p {
+  width: 661px;
+  height: 128px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.6;
+  color: #000000;
+  position: absolute;
+  left: 119px;
+  top: 147px;
+  bottom: 175px;
+}
+.wrapper-footer #icon1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 120px;
+  bottom: 94px;
+  top: 306px;
+}
+.wrapper-footer #icon2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 210px;
+  bottom: 94px;
+  top: 306px;
+}
+.wrapper-footer #icon3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 300px;
+  bottom: 94px;
+  top: 306px;
+}
+.wrapper-footer #icon4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 390px;
+  bottom: 94px;
+  top: 306px;
+}
+.wrapper-footer .footer-text-contact h5 {
+  width: 86px;
+  height: 28px;
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  color: #ffffff;
+  position: absolute;
+  left: 861px;
+  top: 94px;
+  bottom: 328px;
+}
+.wrapper-footer .footer-text-contact p {
+  width: 217px;
+  height: 160px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.6;
+  color: #000000;
+  position: absolute;
+  left: 861px;
+  top: 153px;
+  bottom: 137px;
+}
+
+.wrapper-footer .footer-right h5 {
+  width: 57px;
+  height: 28px;
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  color: #ffffff;
+  position: absolute;
+  right: 79px;
+  top: 94px;
+  bottom: 328px;
+}
+
+/*
+
+//-----------------
+// TOS Styling
+//-----------------
+section.tos {
+    box-sizing: border-box;
+    padding: 0 50px;
+
+    .print {
+        margin: 50px 0;
+    }
+}
+*/
+/*    
+body {
+	main {
+		#corporate-training {
+			#rectangle-mainlm {
+				width: 100%;
+				height: 555px;
+				margin: 0;
+				padding: 0;
+				position: relative;
+			}
+			#corporate {
+				h3 {
+					width: 462.3px;
+					height: 76px;
+					font-family: $font_1;
+					font-size: 32px;
+					font-weight: bold;
+					text-align: center;
+					color: $black;
+					position: absolute;
+					left: 491px;
+					bottom: 366px;
+				}
+				p {
+					width: 652px;
+					height: 69px;
+					font-family: $font_0;
+					font-size: 20px;
+					font-weight: 100;
+					text-align: center;
+					color: $black;
+					position: absolute;
+					left: 396px;
+					right: 392px;
+					top: 223px;
+					bottom: 263px;
+				}
+			}
+			#rectangle-lm {
+				width: 280px;
+				height: 60px;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 40px;
+				background-color: $color_falu_red_approx;
+				position: absolute;
+				left: 582px;
+				bottom: 137px;
+			}
+			#text-lm {
+				width: 162px;
+				height: 28px;
+				font-family: $font_0;
+				font-size: 24px;
+				font-weight: bold;
+				text-align: center;
+				color: $white;
+				position: absolute;
+				left: 59.5px;
+				right: 58.5px;
+				top: 12px;
+				bottom: 16px;
+			}
+		}
+		#course-fold {
+			#rectangle-mainmc {
+				width: 100%;
+				height: 1352px;
+				margin: 0;
+				padding: 0;
+				overflow-x: hidden;
+				background-color: $color_tana_approx;
+				position: relative;
+			}
+			h3 {
+				width: 462.3px;
+				height: 38px;
+				font-family: $font_1;
+				font-size: 32px;
+				font-weight: bold;
+				text-align: center;
+				color: $black;
+				position: absolute;
+				left: 489px;
+				bottom: 1240px;
+			}
+			#duplicate-control {
+				width: 100%;
+				height: 1002px;
+				margin: 0;
+				padding: 0;
+				position: absolute;
+				left: 220px;
+				right: 95px;
+				top: 186px;
+				bottom: 164px;
+				.course1 #rectangle-10 {
+					width: 250px;
+					height: 400px;
+					background-color: $white;
+					//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+					box-shadow: 0 2px 2px 0 $black_12, 0 2px 4px 0 $black_24;
+					position: absolute;
+					left: 0;
+					bottom: 601.3px;
+					h6 {
+						width: 88px;
+						height: 24px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: bold;
+						color: $color_falu_red_approx;
+						position: absolute;
+						left: 6px;
+						top: 258px;
+						bottom: 720px;
+					}
+					h5 {
+						width: 229px;
+						height: 56px;
+						font-family: $font_0;
+						font-size: 24px;
+						font-weight: bold;
+						color: $black;
+						position: absolute;
+						left: 7px;
+						top: 292px;
+						bottom: 654px;
+					}
+					#start-date h6 {
+						width: 112px;
+						height: 23px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: 100;
+						color: $black;
+						position: absolute;
+						left: 4px;
+						top: 360px;
+						bottom: 319px;
+					}
+				}
+				.course2 #rectangle-10 {
+					width: 250px;
+					height: 400px;
+					background-color: $white;
+					//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+					box-shadow: 0 2px 2px 0 $black_12, 0 2px 4px 0 $black_24;
+					position: absolute;
+					left: 375px;
+					top: 0.7px;
+					bottom: 601.3px;
+					h6 {
+						width: 88px;
+						height: 24px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: bold;
+						color: $color_falu_red_approx;
+						position: absolute;
+						left: 6px;
+						top: 258px;
+						bottom: 720px;
+					}
+					h5 {
+						width: 229px;
+						height: 56px;
+						font-family: $font_0;
+						font-size: 24px;
+						font-weight: bold;
+						color: $black;
+						position: absolute;
+						left: 7px;
+						top: 292px;
+						bottom: 654px;
+					}
+					#start-date h6 {
+						width: 112px;
+						height: 23px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: 100;
+						color: $black;
+						position: absolute;
+						left: 4px;
+						top: 360px;
+						bottom: 319px;
+					}
+				}
+				.course3 #rectangle-10 {
+					width: 250px;
+					height: 400px;
+					background-color: $white;
+					//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+					box-shadow: 0 2px 2px 0 $black_12, 0 2px 4px 0 $black_24;
+					position: absolute;
+					left: 750px;
+					top: 0.7px;
+					bottom: 601.3px;
+					h6 {
+						width: 88px;
+						height: 24px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: bold;
+						color: $color_falu_red_approx;
+						position: absolute;
+						left: 6px;
+						top: 258px;
+						bottom: 720px;
+					}
+					h5 {
+						width: 229px;
+						height: 56px;
+						font-family: $font_0;
+						font-size: 24px;
+						font-weight: bold;
+						color: $black;
+						position: absolute;
+						left: 7px;
+						top: 292px;
+						bottom: 654px;
+					}
+					#start-date h6 {
+						width: 115px;
+						height: 23px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: 100;
+						color: $black;
+						position: absolute;
+						left: 4px;
+						top: 360px;
+						bottom: 319px;
+					}
+				}
+				.course4 #rectangle-10 {
+					width: 250px;
+					height: 400px;
+					background-color: $white;
+					//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+					box-shadow: 0 2px 2px 0 $black_12, 0 2px 4px 0 $black_24;
+					position: absolute;
+					left: 0;
+					top: 501.7px;
+					bottom: 100.3px;
+					h6 {
+						width: 88px;
+						height: 24px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: bold;
+						color: $color_falu_red_approx;
+						position: absolute;
+						left: 6px;
+						top: 258px;
+						bottom: 720px;
+					}
+					h5 {
+						width: 229px;
+						height: 56px;
+						font-family: $font_0;
+						font-size: 24px;
+						font-weight: bold;
+						color: $black;
+						position: absolute;
+						left: 7px;
+						top: 292px;
+						bottom: 654px;
+					}
+					#start-date h6 {
+						width: 112px;
+						height: 23px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: 100;
+						color: $black;
+						position: absolute;
+						left: 4px;
+						top: 360px;
+						bottom: 319px;
+					}
+				}
+				.course5 #rectangle-10 {
+					width: 250px;
+					height: 400px;
+					background-color: $white;
+					//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+					box-shadow: 0 2px 2px 0 $black_12, 0 2px 4px 0 $black_24;
+					position: absolute;
+					left: 375px;
+					top: 501.7px;
+					bottom: 100.3px;
+					h6 {
+						width: 88px;
+						height: 24px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: bold;
+						color: $color_falu_red_approx;
+						position: absolute;
+						left: 6px;
+						top: 258px;
+						bottom: 720px;
+					}
+					h5 {
+						width: 229px;
+						height: 56px;
+						font-family: $font_0;
+						font-size: 24px;
+						font-weight: bold;
+						color: $black;
+						position: absolute;
+						left: 7px;
+						top: 292px;
+						bottom: 654px;
+					}
+					#start-date h6 {
+						width: 112px;
+						height: 23px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: 100;
+						color: $black;
+						position: absolute;
+						left: 4px;
+						top: 360px;
+						bottom: 319px;
+					}
+				}
+				.course6 #rectangle-10 {
+					width: 250px;
+					height: 400px;
+					background-color: $white;
+					//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+					box-shadow: 0 2px 2px 0 $black_12, 0 2px 4px 0 $black_24;
+					position: absolute;
+					left: 750px;
+					top: 501.7px;
+					bottom: 100.3px;
+					h6 {
+						width: 88px;
+						height: 24px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: bold;
+						color: $color_falu_red_approx;
+						position: absolute;
+						left: 6px;
+						top: 258px;
+						bottom: 720px;
+					}
+					h5 {
+						width: 229px;
+						height: 56px;
+						font-family: $font_0;
+						font-size: 24px;
+						font-weight: bold;
+						color: $black;
+						position: absolute;
+						left: 7px;
+						top: 292px;
+						bottom: 654px;
+					}
+					#start-date h6 {
+						width: 112px;
+						height: 23px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: 100;
+						color: $black;
+						position: relative;
+						left: 4px;
+						top: 360px;
+						bottom: 319px;
+					}
+				}
+			}
+			h4 {
+				width: 199px;
+				height: 28px;
+				margin: 0;
+				padding: 0;
+				font-family: $font_0;
+				font-size: 24px;
+				font-weight: bold;
+				text-align: center;
+				color: $white;
+				position: absolute;
+				left: 41px;
+				right: 40px;
+				top: 16px;
+				bottom: 13px;
+			}
+			#rectangle-courses {
+				width: 280px;
+				height: 60px;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 40px;
+				background-color: $color_falu_red_approx;
+				position: absolute;
+				left: 582px;
+				top: 1180px;
+				bottom: 112px;
+			}
+		}
+		#testimonials {
+			#rectangle-65copy {
+				width: 100%;
+				height: 739px;
+				margin: 0;
+				padding: 0;
+				overflow-x: hidden;
+				background-color: $white;
+				position: relative;
+			}
+			#duplicate-control {
+				width: 100%;
+				height: 403px;
+				position: absolute;
+				left: 217px;
+				top: 204px;
+				bottom: 92px;
+				.items1 {
+					#rectangle53 {
+						width: 105px;
+						height: 400px;
+						//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+						border-radius: 5px;
+						color: $black;
+						position: absolute;
+						left: 0;
+						top: 3px;
+						bottom: 0;
+					}
+					p {
+						width: 195px;
+						height: 299px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: 100;
+						color: $black;
+						position: absolute;
+						left: 115px;
+						top: 0;
+						bottom: 104px;
+					}
+					h5 {
+						width: 113px;
+						height: 24px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: bold;
+						text-align: center;
+						color: $black;
+						position: absolute;
+						left: 147px;
+						top: 381px;
+						bottom: 39px;
+					}
+					h6 {
+						width: 164px;
+						height: 18px;
+						font-family: $font_0;
+						font-size: 16px;
+						font-style: italic;
+						text-align: center;
+						color: $black;
+						position: absolute;
+						left: 121px;
+						top: 426px;
+						bottom: 0;
+					}
+				}
+				.items2 {
+					#rectangle53 {
+						width: 105px;
+						height: 400px;
+						
+						border-radius: 5px;
+						color: $black;
+						position: absolute;
+						left: 348px;
+						top: 3px;
+						bottom: 0;
+					}
+					p {
+						width: 195px;
+						height: 299px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: 100;
+						color: $black;
+						position: absolute;
+						left: 463px;
+						top: 0;
+						bottom: 104px;
+					}
+					h5 {
+						width: 125px;
+						height: 24px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: bold;
+						text-align: center;
+						color: $black;
+						position: absolute;
+						left: 489px;
+						top: 381px;
+						bottom: 39px;
+					}
+					h6 {
+						width: 164px;
+						height: 18px;
+						font-family: $font_0;
+						font-size: 16px;
+						font-style: italic;
+						text-align: center;
+						color: $black;
+						position: absolute;
+						left: 469px;
+						top: 426px;
+						bottom: 0;
+					}
+				}
+				.items3 {
+					#rectangle53 {
+						width: 105px;
+						height: 400px;
+						
+						border-radius: 5px;
+						color: $black;
+						position: absolute;
+						left: 348px;
+						top: 3px;
+						bottom: 0;
+					}
+					p {
+						width: 195px;
+						height: 299px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: 100;
+						color: $black;
+						position: absolute;
+						left: 806px;
+						top: 0;
+						bottom: 104px;
+					}
+					h5 {
+						width: 130px;
+						height: 24px;
+						font-family: $font_0;
+						font-size: 20px;
+						font-weight: bold;
+						text-align: center;
+						color: $black;
+						position: absolute;
+						left: 830px;
+						top: 381px;
+						bottom: 39px;
+					}
+					h6 {
+						width: 164px;
+						height: 18px;
+						font-family: $font_0;
+						font-size: 16px;
+						font-style: italic;
+						text-align: center;
+						color: $black;
+						position: absolute;
+						left: 812px;
+						top: 426px;
+						bottom: 0;
+					}
+				}
+			}
+			#text h3 {
+				width: 462.3px;
+				height: 38px;
+				font-family: $font_1;
+				font-size: 32px;
+				font-weight: bold;
+				text-align: center;
+				color: $black;
+				position: absolute;
+				left: 489px;
+				top: 70px;
+				bottom: 591px;
+			}
+		}
+		#hero #Hero-Rectangle {
+			width: 100%;
+			height: 500px;
+			margin: 0;
+			padding: 0;
+			overflow-x: hidden;
+			background-color: $black_25;
+			position: relative;
+			#Button-Rectangle {
+				width: 280px;
+				height: 60px;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 40px;
+				background-color: $white;
+				position: absolute;
+				left: 582px;
+				bottom: 62px;
+				#Button-Text h4 {
+					width: 123px;
+					height: 28px;
+					font-family: $font_0;
+					font-size: 24px;
+					font-weight: bold;
+					text-align: center;
+					color: $black;
+					position: relative;
+					left: 79px;
+					right: 78px;
+					bottom: 14px;
+					top: 8px;
+				}
+			}
+			#Hero-Text h1 {
+				width: 85%;
+				height: 144px;
+				margin: 0;
+				padding: 0;
+				font-family: $font_0;
+				font-size: 55px;
+				font-weight: bold;
+				text-align: center;
+				color: $white;
+				//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				text-shadow: 0 1px 1px $black_50;
+				position: absolute;
+				left: 143px;
+				bottom: 228px;
+			}
+		}
+	}
+	header nav {
+		#Rectangle-navbar {
+			width: 100%;
+			height: 72px;
+			margin: 0;
+			padding: 0;
+			overflow-x: hidden;
+			background-color: $color_sea_nymph_80_approx;
+			postion: relative;
+		}
+		#Rectangle-ff {
+			width: 50px;
+			height: 50px;
+			margin: 0;
+			padding: 0;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 5px;
+			background-color: $white;
+			position: absolute;
+			left: 110px;
+			top: 11px;
+			bottom: 11px;
+		}
+		#Login-Rectangle {
+			width: 150px;
+			height: 40px;
+			margin: 0;
+			padding: 0;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			background-color: $white;
+			position: absolute;
+			right: 280px;
+			top: 16px;
+			#Login-Text h4 {
+				width: 62px;
+				height: 22px;
+				margin: 0;
+				padding: 0;
+				font-family: $font_0;
+				font-size: 18px;
+				font-weight: bold;
+				text-align: center;
+				color: $black;
+				position: absolute;
+				left: 44.5px;
+				top: 10px;
+				bottom: 9px;
+			}
+		}
+		#SignUp-Rectangle {
+			width: 150px;
+			height: 40px;
+			margin: 0;
+			padding: 0;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			background-color: $white;
+			position: absolute;
+			right: 110px;
+			top: 16px;
+			#SignUp-Text h4 {
+				width: 75px;
+				height: 22px;
+				margin: 0;
+				padding: 0;
+				font-family: $font_0;
+				font-size: 18px;
+				font-weight: bold;
+				text-align: center;
+				color: $black;
+				position: absolute;
+				left: 38px;
+				top: 10px;
+				bottom: 9px;
+			}
+		}
+		#Navbar-text h6 {
+			width: 146px;
+			height: 33px;
+			margin: 0;
+			padding: 0;
+			font-family: $font_0;
+			font-size: 24px;
+			text-align: center;
+			color: $white;
+			position: absolute;
+			left: 171.5px;
+			top: 24px;
+			bottom: 21px;
+		}
+	}
+}
+*/
