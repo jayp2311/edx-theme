@@ -189,7 +189,7 @@ header nav #Rectangle-navbar {
   padding: 0;
   overflow-x: hidden;
   background-color: rgba(121, 151, 151, 0.8);
-  postion: relative;
+  position: relative;
 }
 header nav #Rectangle-ff {
   width: 50px;
