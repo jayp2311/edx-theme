@@ -39,8 +39,7 @@ $serif: $theme-serif-font, $serif;
     
 }
 .wrapper-footer footer {
-    margin: 0px;
-    padding: 0px;
+
   height: 450px;
   overflow-x: hidden;
   background-color: rgba(121, 151, 151, 0.8);
