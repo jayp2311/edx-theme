@@ -181,6 +181,98 @@ $register-banner-image: none;
         padding: 120px 0 !important;
     }
 }*/
+
+header nav #Rectangle-navbar {
+  width: 100%;
+  height: 72px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: rgba(121, 151, 151, 0.8);
+  postion: relative;
+}
+header nav #Rectangle-ff {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 110px;
+  top: 11px;
+  bottom: 11px;
+}
+header nav #Login-Rectangle {
+  width: 150px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 280px;
+  top: 16px;
+}
+header nav #Login-Rectangle #Login-Text h4 {
+  width: 62px;
+  height: 22px;
+  margin: 0;
+  padding: 0;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  left: 44.5px;
+  top: 10px;
+  bottom: 9px;
+}
+header nav #SignUp-Rectangle {
+  width: 150px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 110px;
+  top: 16px;
+}
+header nav #SignUp-Rectangle #SignUp-Text h4 {
+  width: 75px;
+  height: 22px;
+  margin: 0;
+  padding: 0;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  left: 38px;
+  top: 10px;
+  bottom: 9px;
+}
+header nav #Navbar-text h6 {
+  width: 146px;
+  height: 33px;
+  margin: 0;
+  padding: 0;
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  left: 171.5px;
+  top: 24px;
+  bottom: 21px;
+}
+
+
+
+
 .wrapper-footer {
   max-width: 100%;
   padding: 0px;
