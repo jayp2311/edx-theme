@@ -10,7 +10,154 @@ $body-font-family: $sans-serif;
 $theme-serif-font: 'Crimson Text';
 $serif: $theme-serif-font, $serif;
 
-*/
+
+
+
+//-----------------
+//  Theme Element Assignments
+//-----------------
+
+/*
+
+$body-bg: $gray-1;
+$container-bg: $gray-1;
+$login-register-bg: $gray-1;
+$content-wrapper-bg: $gray-1;
+$header-image: none;
+$header-bg: transparentize(lighten($secondary, 18.5%), .25);
+$courseware-header-image: none;
+$courseware-header-bg: transparentize(lighten($secondary, 18.5%), .25);
+$footer-bg: $secondary-25;
+$courseware-footer-border: 1px solid $main-bg-60;
+$courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
+$courseware-footer-margin: 50px;
+
+$faded-hr-image-1: linear-gradient($main-bg-60 0%, $main-bg-60);
+$faded-hr-image-2: linear-gradient($main-bg-60 0%, $main-bg-60);
+$faded-hr-image-3: linear-gradient($main-bg-60 0%, $main-bg-60);
+$faded-hr-image-4: linear-gradient($main-bg-60 0%, $main-bg-60);
+$faded-hr-image-5: linear-gradient($main-bg-60 0%, $main-bg-60);
+$faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
+
+$base-font-color: $black;
+$lighter-base-font-color: $black-80;
+$very-light-text: $gray-1;
+
+$link-color: $dark-color;
+$link-color-d1: $dark-color;
+$link-hover: $light-color;
+$site-status-color: $bg-color;
+
+$header-graphic-super-color: $dark-color;
+$header-graphic-sub-color: $lighter-base-font-color;
+
+$header-link-color: $dark-color;
+$header-link-hover: $light-color;
+
+$button-color: $main-color;
+$button-archive-color: $gray-3;
+
+$shadow-color: $gray;
+
+// actions
+$button-bg-image: none;
+$button-bg-color: $gray-3;
+$button-bg-hover-color: $gray-1;
+
+// actions - primary
+$action-primary-bg: $main-color;
+$action-primary-fg: $gray-2;
+$action-primary-shadow: none;
+
+// focused - hover/active pseudo states
+$action-primary-focused-bg: $dark-color;
+$action-primary-focused-fg: $gray-1;
+
+// current or active navigation item
+$action-primary-active-bg: $dark-color;
+$action-primary-active-fg: $gray-1;
+$action-primary-active-shadow: none;
+$action-primary-active-focused-fg: $gray-2;
+$action-primary-active-focused-shadow: none;
+
+// disabled
+$action-primary-disabled-bg: $gray-75;
+$action-prmary-disabled-fg: $gray-1;
+
+
+
+// actions - secondary
+$action-secondary-bg: $secondary;
+$action-secondary-fg: $gray;
+$action-secondary-shadow: none;
+
+// focused - hover/active pseudo states
+$action-secondary-focused-bg: $secondary-50;
+$action-secondary-focused-fg: $gray;
+
+// current or active navigation item
+$action-secondary-active-bg: $secondary-50;
+$action-secondary-active-fg: $gray;
+$action-secondary-active-shadow: none;
+$action-secondary-active-focused-fg: $gray-75;
+$action-secondary-active-focused-shadow: none;
+
+// disabled
+$action-secondary-disabled-bg: $gray-3;
+$action-secondary-disabled-fg: $gray;
+
+//
+
+$border-color-1: $main-bg-60;
+$border-color-2: $main-bg-60;
+$border-color-3: $main-bg-60;
+$outer-border-color: $main-bg-60;
+
+$sidebar-color: $gray-1;
+
+$homepage__header--gradient__color--alpha: $secondary-25;
+$homepage__header--gradient__color--bravo: $secondary-25;
+$homepage__header--background: $secondary-25;
+$dashboard-profile-header-image: none;
+$dashboard-profile-header-color: $secondary-25;
+$dashboard-profile-color: $gray-3;
+$dot-color: $main-bg-60;
+
+$course-bg-color: $gray-3;
+$course-bg-image: none;
+$account-content-wrapper-bg: $gray-1;
+
+$course-profile-bg: $gray-1;
+$course-header-bg: transparentize($gray-1, .1);
+
+$sidebar-chapter-bg-top: transparentize($gray-1, .3);
+$sidebar-chapter-bg-bottom: transparentize($gray-1, .9);
+$sidebar-chapter-bg: $gray-2;
+$sidebar-active-image: $gray-3;
+
+$form-bg-color: $gray-1;
+$modal-bg-color: $gray-1;
+
+//TOP HEADER IMAGE MARGIN
+$header_image_margin: -77px;
+
+//FOOTER MARGIN
+//$footer_margin: ($baseline/4) 0;
+
+//-----------------
+//  CSS BG Images
+//-----------------
+//$homepage-bg-image: url('../themes/default/images/sunrise.jpg');
+
+$login-banner-image: none;
+$register-banner-image: none;
+
+//$video-thumb-url: '../themes/default/images/edx.png';
+
+//-----------------
+//  Mixin Styles
+//-----------------
+
 /*
 @mixin login_register_h1_style {
     clip: auto !important;
@@ -35,17 +182,195 @@ $serif: $theme-serif-font, $serif;
     }
 }*/
 .wrapper-footer {
-    
-    
+  max-width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffffff;
+}
+.wrapper-footer #testimonials #rectangle-65copy {
+  max-width: 100%;
+  height: 739px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  position: relative;
+}
+.wrapper-footer #testimonials #duplicate-control {
+  max-width: 100%;
+  height: 403px;
+  position: absolute;
+  left: 217px;
+  top: 204px;
+  bottom: 92px;
+}
+.wrapper-footer #testimonials #duplicate-control .items1 #rectangle53 {
+  width: 105px;
+  height: 400px;
+  border-radius: 5px;
+  color: #000000;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  bottom: 0;
+}
+.wrapper-footer #testimonials #duplicate-control .items1 p {
+  width: 195px;
+  height: 299px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: 100;
+  color: #000000;
+  position: absolute;
+  left: 115px;
+  top: 0;
+  bottom: 104px;
+}
+.wrapper-footer #testimonials #duplicate-control .items1 h5 {
+  width: 113px;
+  height: 24px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  left: 147px;
+  top: 381px;
+  bottom: 39px;
+}
+.wrapper-footer #testimonials #duplicate-control .items1 h6 {
+  width: 164px;
+  height: 18px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  left: 121px;
+  top: 426px;
+  bottom: 0;
+}
+.wrapper-footer #testimonials #duplicate-control .items2 #rectangle53 {
+  width: 105px;
+  height: 400px;
+  border-radius: 5px;
+  color: #000000;
+  position: absolute;
+  left: 348px;
+  top: 3px;
+  bottom: 0;
+}
+.wrapper-footer #testimonials #duplicate-control .items2 p {
+  width: 195px;
+  height: 299px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: 100;
+  color: #000000;
+  position: absolute;
+  left: 463px;
+  top: 0;
+  bottom: 104px;
+}
+.wrapper-footer #testimonials #duplicate-control .items2 h5 {
+  width: 125px;
+  height: 24px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  left: 489px;
+  top: 381px;
+  bottom: 39px;
+}
+.wrapper-footer #testimonials #duplicate-control .items2 h6 {
+  width: 164px;
+  height: 18px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  left: 469px;
+  top: 426px;
+  bottom: 0;
+}
+.wrapper-footer #testimonials #duplicate-control .items3 #rectangle53 {
+  width: 105px;
+  height: 400px;
+  border-radius: 5px;
+  color: #000000;
+  position: absolute;
+  left: 348px;
+  top: 3px;
+  bottom: 0;
+}
+.wrapper-footer #testimonials #duplicate-control .items3 p {
+  width: 195px;
+  height: 299px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: 100;
+  color: #000000;
+  position: absolute;
+  left: 806px;
+  top: 0;
+  bottom: 104px;
+}
+.wrapper-footer #testimonials #duplicate-control .items3 h5 {
+  width: 130px;
+  height: 24px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  left: 830px;
+  top: 381px;
+  bottom: 39px;
+}
+.wrapper-footer #testimonials #duplicate-control .items3 h6 {
+  width: 164px;
+  height: 18px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  left: 812px;
+  top: 426px;
+  bottom: 0;
+}
+.wrapper-footer #testimonials #text h3 {
+  width: 462.3px;
+  height: 38px;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  left: 489px;
+  top: 70px;
+  bottom: 591px;
 }
 .wrapper-footer footer {
-    max-width: 100%;
+  max-width: 100%;
   height: 450px;
+  margin: 0px;
+  padding: 0px;
   overflow-x: hidden;
   background-color: rgba(121, 151, 151, 0.8);
   position: relative;
 }
-.wrapper-footer .footer-title h5 {
+.wrapper-footer footer .footer-title h5 {
   width: 348px;
   height: 28px;
   font-family: HelveticaNeue;
@@ -56,7 +381,7 @@ $serif: $theme-serif-font, $serif;
   bottom: 328px;
   top: 94px;
 }
-.wrapper-footer .footer-title p {
+.wrapper-footer footer .footer-title p {
   width: 661px;
   height: 128px;
   font-family: HelveticaNeue;
@@ -69,7 +394,7 @@ $serif: $theme-serif-font, $serif;
   top: 147px;
   bottom: 175px;
 }
-.wrapper-footer #icon1 {
+.wrapper-footer footer #icon1 {
   width: 50px;
   height: 50px;
   border-radius: 5px;
@@ -79,7 +404,7 @@ $serif: $theme-serif-font, $serif;
   bottom: 94px;
   top: 306px;
 }
-.wrapper-footer #icon2 {
+.wrapper-footer footer #icon2 {
   width: 50px;
   height: 50px;
   border-radius: 5px;
@@ -89,7 +414,7 @@ $serif: $theme-serif-font, $serif;
   bottom: 94px;
   top: 306px;
 }
-.wrapper-footer #icon3 {
+.wrapper-footer footer #icon3 {
   width: 50px;
   height: 50px;
   border-radius: 5px;
@@ -99,7 +424,7 @@ $serif: $theme-serif-font, $serif;
   bottom: 94px;
   top: 306px;
 }
-.wrapper-footer #icon4 {
+.wrapper-footer footer #icon4 {
   width: 50px;
   height: 50px;
   border-radius: 5px;
@@ -109,7 +434,7 @@ $serif: $theme-serif-font, $serif;
   bottom: 94px;
   top: 306px;
 }
-.wrapper-footer .footer-text-contact h5 {
+.wrapper-footer footer .footer-text-contact h5 {
   width: 86px;
   height: 28px;
   font-family: HelveticaNeue;
@@ -120,7 +445,7 @@ $serif: $theme-serif-font, $serif;
   top: 94px;
   bottom: 328px;
 }
-.wrapper-footer .footer-text-contact p {
+.wrapper-footer footer .footer-text-contact p {
   width: 217px;
   height: 160px;
   font-family: HelveticaNeue;
@@ -133,8 +458,7 @@ $serif: $theme-serif-font, $serif;
   top: 153px;
   bottom: 137px;
 }
-
-.wrapper-footer .footer-right h5 {
+.wrapper-footer footer .footer-right h5 {
   width: 57px;
   height: 28px;
   font-family: HelveticaNeue;
@@ -142,8 +466,48 @@ $serif: $theme-serif-font, $serif;
   color: #ffffff;
   position: absolute;
   right: 79px;
-  top: 94px;
   bottom: 328px;
+}
+.wrapper-footer footer .footer-right .text1 {
+  width: 57px;
+  height: 28px;
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  color: #000000;
+  position: absolute;
+  right: 79px;
+  top: 94px;
+  bottom: 298px;
+}
+.wrapper-footer footer .footer-right .text2 {
+  width: 57px;
+  height: 28px;
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  color: #000000;
+  position: absolute;
+  right: 79px;
+  bottom: 268px;
+}
+.wrapper-footer footer .footer-right .text3 {
+  width: 57px;
+  height: 28px;
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  color: #000000;
+  position: absolute;
+  right: 79px;
+  bottom: 238px;
+}
+.wrapper-footer footer .footer-right .text4 {
+  width: 57px;
+  height: 28px;
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  color: #000000;
+  position: absolute;
+  right: 79px;
+  bottom: 208px;
 }
 
 /*
