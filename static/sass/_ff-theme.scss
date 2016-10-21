@@ -567,26 +567,52 @@ $black: #000000;
             bottom: 328px;
         }
         
-        ul {
-            list-style: none;
-            margin-left: -40px;
-            li {
-                line-height: 24px;
-                padding-bottom: 22px;
-                a {
-                    text-decoration: none;
-                    color: $black;
-                    width: 71px;
-                    height: 28px;
-                    font-family: $font_0;
-                    font-size: 24px;
-                    padding-bottom: 50px;
-                    position: absolute;
-                    right: 79px;
-                    top: 94px;
-                }
-                
-            }
+        .text1 {
+            width: 57px;    
+            height: 28px;
+            font-family: $font_0;
+            font-size: 24px;
+            color: $white;
+            position: absolute;
+            right: 79px;
+            top: 94px;
+            bottom: 298px;
+        }
+        
+        .text2 {
+            width: 57px;    
+            height: 28px;
+            font-family: $font_0;
+            font-size: 24px;
+            color: $white;
+            position: absolute;
+            right: 79px;
+            top: 94px;
+            bottom: 268px;
+        }
+        
+        .text3 {
+            width: 57px;    
+            height: 28px;
+            font-family: $font_0;
+            font-size: 24px;
+            color: $white;
+            position: absolute;
+            right: 79px;
+            top: 94px;
+            bottom: 238px;
+        }
+        
+        .text4 {
+            width: 57px;    
+            height: 28px;
+            font-family: $font_0;
+            font-size: 24px;
+            color: $white;
+            position: absolute;
+            right: 79px;
+            top: 94px;
+            bottom: 208px;
         }
     }
     
