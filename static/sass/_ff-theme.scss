@@ -249,7 +249,7 @@ $register-banner-image: none;
 .wrapper-footer {
     padding: 0px;
     background-color: $white;
-    width: 100%;
+    max-width: 100%;
     
     #testimonials {
 			#rectangle-65copy {
@@ -439,7 +439,6 @@ $register-banner-image: none;
     
     footer {
         max-width: 100%;
-        margin: 0 auto;
         height: 450px;
         overflow-x: hidden;
         background-color: rgba(121, 151, 151, 0.8);
