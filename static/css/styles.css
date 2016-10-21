@@ -36,13 +36,12 @@ $serif: $theme-serif-font, $serif;
 }*/
 .wrapper-footer {
   box-shadow: none !important;
-    max-width: 100%;
-    margin: 0px;
-    padding: 0px;
+    
 }
 .wrapper-footer footer {
-  max-width: 1180px;
-  margin: 0 auto;
+  max-width: 100%;
+    margin: 0px;
+    padding: 0px;
   height: 450px;
   overflow-x: hidden;
   background-color: rgba(121, 151, 151, 0.8);
