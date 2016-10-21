@@ -10,30 +10,24 @@ $body-font-family: $sans-serif;
 $theme-serif-font: 'Crimson Text';
 $serif: $theme-serif-font, $serif;
 
-*/
-/*
-@mixin login_register_h1_style {
-    clip: auto !important;
-    height: 50px;
-    width: 550px;
-    top: 0;
-}
 
-@mixin footer_references_style {
-    margin: 0 !important;
-    text-align: right;
-}
 */
-/*html {
-    background-color: $secondary-25 !important;
-}*/
-/*.home>header {
-    height: 500px;
 
-    .outer-wrapper {
-        padding: 120px 0 !important;
-    }
-}*/
+//colors
+$color_sea_nymph_80_approx: rgba(121, 151, 151, 0.8);
+$white: #ffffff;
+$black: #000000;
+$black_25: rgba(0, 0, 0, 0.25);
+$black_50: rgba(0, 0, 0, 0.5);
+$color_falu_red_approx: #7d1419;
+$color_tana_approx: #d6d9bb;
+$black_12: rgba(0, 0, 0, 0.12);
+$black_24: rgba(0, 0, 0, 0.24);
+
+//fonts
+$font_0: HelveticaNeue;
+$font_1: Helvetica;
+
 
 nav.wrapper-header 
 
