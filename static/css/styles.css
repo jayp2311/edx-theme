@@ -35,11 +35,10 @@ $serif: $theme-serif-font, $serif;
     }
 }*/
 .wrapper-footer {
-  box-shadow: none !important;
+    
     
 }
 .wrapper-footer footer {
-  max-width: 100%;
     margin: 0px;
     padding: 0px;
   height: 450px;
