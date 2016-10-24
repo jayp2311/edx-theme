@@ -252,8 +252,13 @@ $black: #000000;
 
 
 .header-global {
-    border-bottom: 0px solid rgba(0,0,0,0.05)!important;
     height: 72px!important;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: $color_sea_nymph_80_approx;
+    postion: relative;
 }
 
 .header-global .wrapper-header {
