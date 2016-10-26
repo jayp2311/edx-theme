@@ -254,8 +254,8 @@ $black: #000000;
 .header-global {
     height: 72px!important;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     overflow-x: hidden;
     background-color: $color_sea_nymph_80_approx;
     postion: relative;
@@ -268,15 +268,15 @@ $black: #000000;
 
 nav.wrapper-header {
     
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     
     #Rectangle-navbar {
         
         width: 100%;
         height: 72px;
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
         overflow-x: hidden;
         background-color: $color_sea_nymph_80_approx;
         postion: relative;
@@ -285,8 +285,6 @@ nav.wrapper-header {
             
             width: 50px;
 			height: 50px;
-			margin: 0;
-			padding: 0;
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 			border-radius: 5px;
 			background-color: $white;
@@ -304,8 +302,6 @@ nav.wrapper-header {
             h6 {
                 width: 146px;
                 height: 33px;
-                margin: 0;
-                padding: 0;
                 font-family: $font_0;
                 font-size: 24px;
                 text-align: center;
@@ -324,8 +320,6 @@ nav.wrapper-header {
             
             width: 150px;
 			height: 40px;
-			margin: 0;
-			padding: 0;
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 			border-radius: 20px;
 			background-color: $white;
@@ -339,8 +333,6 @@ nav.wrapper-header {
                     
                     width: 62px;
                     height: 22px;
-                    margin: 0;
-                    padding: 0;
                     font-family: $font_0;
                     font-size: 18px;
                     font-weight: bold;
@@ -360,8 +352,6 @@ nav.wrapper-header {
             
             width: 150px;
 			height: 40px;
-			margin: 0;
-			padding: 0;
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 			border-radius: 20px;
 			background-color: $white;
@@ -374,8 +364,6 @@ nav.wrapper-header {
                 h4 {
                     width: 75px;
                     height: 22px;
-                    margin: 0;
-                    padding: 0;
                     font-family: $font_0;
                     font-size: 18px;
                     font-weight: bold;
