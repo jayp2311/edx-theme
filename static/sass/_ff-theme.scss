@@ -266,7 +266,11 @@ $black: #000000;
 	padding: 0px;
 }
 
-nav.wrapper-header {
+.header-global .wrapper-header {
+	padding: 0px;
+}
+
+.wrapper-header {
     
     margin: 0px;
     padding: 0px;
