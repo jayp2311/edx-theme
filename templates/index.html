@@ -20,13 +20,7 @@ from openedx.core.djangolib.markup import HTML, Text
                 </div>
                 
                 
-                % if show_homepage_promo_video:
-                <a href="#video-modal" class="media" rel="leanModal">
-                    <div class="hero">
-                    <div class="play-intro"></div>
-                    </div>
-                </a>
-            % endif
+                
         </div>
             
         </header>
@@ -35,14 +29,7 @@ from openedx.core.djangolib.markup import HTML, Text
     </section>
 </main>
     
-    
-% if show_homepage_promo_video:
-  <section id="video-modal" class="modal home-page-video-modal video-modal">
-    <div class="inner-wrapper">
-      <iframe title="YouTube Video" width="640" height="360" src="//www.youtube.com/embed/${homepage_promo_video_youtube_id}?showinfo=0" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </section>
-% endif
+
 
 <%block name="js_extra">
    <script type="text/javascript">
