@@ -59,6 +59,69 @@ $white: #ffffff;
 $black: #000000;
 
 
+.corporate-training {
+			#rectangle-mainlm {
+				width: 100%;
+				height: 555px;
+				margin: 0;
+				padding: 0;
+				position: relative;
+			}
+			#corporate {
+				h3 {
+					width: 462.3px;
+					height: 76px;
+					font-family: $font_1;
+					font-size: 32px;
+					font-weight: bold;
+					text-align: center;
+					color: $black;
+					position: absolute;
+					left: 491px;
+					bottom: 366px;
+				}
+				p {
+					width: 652px;
+					height: 69px;
+					font-family: $font_0;
+					font-size: 20px;
+					font-weight: 100;
+					text-align: center;
+					color: $black;
+					position: absolute;
+					left: 396px;
+					right: 392px;
+					top: 223px;
+					bottom: 263px;
+				}
+			}
+			#rectangle-lm {
+				width: 280px;
+				height: 60px;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 40px;
+				background-color: $color_falu_red_approx;
+				position: absolute;
+				left: 582px;
+				bottom: 137px;
+			}
+			#text-lm {
+				width: 162px;
+				height: 28px;
+				font-family: $font_0;
+				font-size: 24px;
+				font-weight: bold;
+				text-align: center;
+				color: $white;
+				position: absolute;
+				left: 59.5px;
+				right: 58.5px;
+				top: 12px;
+				bottom: 16px;
+			}
+		}
+
+
 .ff-hero .Hero-Rectangle {
     
     width: 100%!important; 
