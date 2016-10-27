@@ -59,6 +59,66 @@ $white: #ffffff;
 $black: #000000;
 
 
+.outer-banner-wrapper .top_banner {
+    
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: $black_25;
+    position: relative;
+    
+    p .action_text {
+        
+        width: 85%;
+        height: 144px;
+        margin: 0;
+        padding: 0;
+        font-family: $font_0;
+        font-size: 55px;
+        font-weight: bold;
+        text-align: center;
+        color: $white;
+        text-shadow: 0 1px 1px $black_50;
+        position: absolute;
+        left: 143px;
+        bottom: 228px;
+    }
+    
+    p .action_btn {
+        
+        width: 280px;
+        height: 60px;
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: 40px;
+        background-color: $white;
+        position: absolute;
+        left: 582px;
+        bottom: 62px;
+        
+        span {
+            
+            width: 123px;
+            height: 28px;
+            font-family: $font_0;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            color: $black;
+            position: relative;
+            left: 79px;
+            right: 78px;
+            bottom: 14px;
+            top: 8px;
+            
+        }
+    }
+    
+    
+}
+
+
 .header-global .wrapper-header {
     height: 72px!important;
     width: 100%;
