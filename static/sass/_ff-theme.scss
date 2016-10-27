@@ -61,15 +61,15 @@ $black: #000000;
 
 .outer-wrapper .top_banner {
     
-    width: 100%;
+    width: 100%!important; 
     height: 500px;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px!important;
     overflow-x: hidden;
     background-color: $black_25;
     position: relative;
     
-    p .action_text {
+    #Hero-Text {
         
         width: 85%;
         height: 144px;
@@ -86,18 +86,17 @@ $black: #000000;
         bottom: 228px;
     }
     
-    p .action_btn {
+    #Button-Rectangle {
         
         width: 280px;
         height: 60px;
-        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
         border-radius: 40px;
         background-color: $white;
         position: absolute;
         left: 582px;
         bottom: 62px;
         
-        span {
+        #Button-Text {
             
             width: 123px;
             height: 28px;
