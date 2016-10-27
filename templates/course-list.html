@@ -1,0 +1,120 @@
+<%page expression_filter="h"/>
+<%namespace name='static' file='static_content.html'/>
+<%! from django.utils.translation import ugettext as _ %>
+
+<section class="courses-container">
+	<p class="courses-heading" style="padding: 84px 0px 0px 0px;">
+    <firstletter>F</firstletter>eatured <firstletter>C</firstletter>ourses
+	</p>
+  <section class="highlighted-courses" style="margin:-25px 0px 0px 0px!important;">
+
+    % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+      <section class="courses">
+        <ul class="courses-listing" style="text-align:center;">
+          ## limiting the course number by using HOMEPAGE_COURSE_MAX as the maximum number of courses
+          %for course in courses[:settings.HOMEPAGE_COURSE_MAX]:
+          <li class="courses-listing-item">
+              <%include file="course.html" args="course=course" />
+          </li>
+        %endfor
+        </ul>
+      </section>
+    ## in case there are courses that are not shown on the homepage, a 'View all Courses' link should appear
+      % if settings.HOMEPAGE_COURSE_MAX and len(courses) > settings.HOMEPAGE_COURSE_MAX:
+      <div class="courses-more" style="padding: 44px 0px 64px 0px;">
+        <a class="custom-btn" href="${marketing_link('COURSES')}" style="font-size: 24px!important;padding: 16px 41px;letter-spacing: 1.01px;"> ${_("More Courses")} </a>
+      </div>
+    % endif
+    % endif
+
+  </section>
+</section>
+
+<!-- <div class="bottom_banner_one">
+  <div class="row">
+    <div class="col-lg-12 heading" >
+		<p class="courses-heading">
+    		<firstletter>W</firstletter>hy <firstletter>S</firstletter>eed-<firstletter>M</firstletter>ooc ?
+		</p>
+	</div>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-3" style="margin-left:50px;">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus. Nulla semper viverra eros, non tempus nisl. Quisque quis risus nec neque ultrices maximus eget vitae augue. Integer iaculis elit et massa volutpat rhoncus.
+        </p>
+        <br />
+        <p style="padding-top: 68px;">
+          <a href="" class="bottom_btn">LEARN MORE</a>
+        </p>
+    </div>
+    <div class="col-lg-3" style="margin-left:45px;">
+      <img src="${static.url('images/3rd_fold_icons.png')}" style="display:block;margin-left:auto;margin-right:auto;" alt="">
+    </div>
+    <div class="col-lg-4" style="padding-left: 0px;">
+      <div class="row" style="width:400px;">
+        <div class="col-sm-12">
+          <strong>Farming</strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus.</p>
+          <br>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-11">
+          <strong>Boundless</strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus.</p>
+          <br>
+        </div>
+        <div class="col-sm-12">
+          <strong>Personalized</strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus.</p>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div> -->
+
+<div class="bottom_banner_one_alternative">
+  <div class="three_fold_container">
+    <div class="three_fold_heading">
+      <p>
+          <fl>W</fl>hy <fl>S</fl>eed-<fl>M</fl>ooc ?
+      </p>
+    </div>
+    <div class="first_fold">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus. Nulla semper viverra eros, non tempus nisl. Quisque quis risus nec neque ultrices maximus eget vitae augue. Integer iaculis elit et massa volutpat rhoncus.
+      </p>
+      <br>
+      <p>
+        <a href="" class="bottom_btn">LEARN MORE</a>
+      </p>
+    </div>
+    <div class="second_fold">
+<!--       <ul>
+        <li> <img src="${static.url('images/Plant-third-fold.png')}" alt=""></li>
+        <li> <img src="${static.url('images/Earth-third-fold.png')}" alt=""></li>
+        <li> <img src="${static.url('images/Speed-third-fold.png')}" alt=""></li>
+      </ul> -->
+      <img src="${static.url('images/3rd_fold_icons.png')}" alt="">
+    </div>
+    <div class="third_fold">
+      <p>
+        <strong>Farming</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus.
+      </p>
+      <p>
+        <strong>Boundless</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus.
+      </p>
+      <p>
+        <strong>Personalized</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="bottom_banner_two" style="background-image:url(${static.url('images/bottom_banner.jpg')})">
+  <!-- <img src="${static.url('images/bottom_banner.png')}" alt=""> -->
+  <p><span>BE OUTSTANDING IN THE</span><br /><span>FIELD OF AGRICULTURE</span></p>
+  <br>
+  <p class="action_btn" ><span><a class="top_banner_btn" href="/register"> Join Now </a></span></p>
+</div>
