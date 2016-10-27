@@ -61,6 +61,23 @@ $black: #000000;
 
 .outer-wrapper .top_banner {
     
+    
+    
+    
+}
+
+
+.header-global .wrapper-header {
+    height: 72px!important;
+    width: 100%;
+    margin: 0px;
+    padding: 0px !important;
+    overflow-x: hidden;
+    background-color: $color_sea_nymph_80_approx;
+    postion: relative;
+    
+    
+    #hero
     width: 100%!important; 
     height: 500px;
     margin: 0px;
@@ -113,19 +130,6 @@ $black: #000000;
             
         }
     }
-    
-    
-}
-
-
-.header-global .wrapper-header {
-    height: 72px!important;
-    width: 100%;
-    margin: 0px;
-    padding: 0px !important;
-    overflow-x: hidden;
-    background-color: $color_sea_nymph_80_approx;
-    postion: relative;
     
     #Rectangle-navbar {
         
@@ -236,6 +240,8 @@ $black: #000000;
         }
     }
 }
+
+
 
 
 
