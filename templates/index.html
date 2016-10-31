@@ -145,7 +145,18 @@ from microsite_configuration import microsite
       </div>
 
   </header>
-  <section class="courses-container">
+  <section class="courses-container" style="width: 100%;
+    height: 1352px;
+    margin: 0px!important;
+    padding: 0px!important;
+    overflow-x: hidden;
+    background-color: $color_tana_approx;
+    position: relative;">
+      
+    
+    <p class="courses-heading" style="padding: 84px 0px 0px 0px;">
+    <firstletter>F</firstletter>eatured <firstletter>C</firstletter>ourses
+	</p>
     <section class="highlighted-courses">
 
       % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
