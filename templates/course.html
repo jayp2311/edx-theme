@@ -14,7 +14,9 @@ from django.core.urlresolvers import reverse
                         bottom: 601.3px!important">
   <a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}">
     <header class="course-image">
-      <div class="cover-image">
+      <div class="cover-image" style="width:250px!important;
+                                      height:228px!important
+                                      ">
         <img src="static/themes/ff-theme/images/course-image.jpeg" alt="test-image"/>
         <div class="learn-more" aria-hidden="true">${_("LEARN MORE")}</div>
       </div>
