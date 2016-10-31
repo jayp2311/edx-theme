@@ -179,18 +179,24 @@ from microsite_configuration import microsite
 
       % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
         <section class="courses" style="width: 100%
-                                        height: 1002px
-                                        margin: 0px
-                                        padding: 0px
-                                        position: absolute
-                                        left: 130px
-                                        right: 95px
-                                        top: 186px
-                                        bottom: 164px">
+                height: 1002px!important;
+                margin: 0px!important;
+                padding: 0px!important;
+                position: absolute!important;
+                left: 130px!important;
+                right: 95px!important;
+                top: 186px!important;
+                bottom: 164px!important">
             <ul class="courses-listing">
             ## limiting the course number by using HOMEPAGE_COURSE_MAX as the maximum number of courses
             %for course in courses[:settings.HOMEPAGE_COURSE_MAX]:
-              <li class="courses-listing-item">
+              <li class="courses-listing-item" style="width: 250px
+                        height: 400px
+                        background-color: #ffffff
+                        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.24)
+                        position: absolute 
+                        left: 0px
+                        bottom: 601.3px">
                 <%include file="course.html" args="course=course" />
               </li>
             %endfor
