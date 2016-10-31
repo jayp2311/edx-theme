@@ -58,6 +58,60 @@ $white: #ffffff;
 $black: #000000;
 
 
+.courses-container .courses .course .course-image .cover-image {
+    
+    width: 250px!important;
+    height:228px!important;
+    overflow: hidden;
+    
+}
+
+.courses-container .courses .course .course-info .course-title {
+    
+    width: 229px;
+    height: 56px;
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    left: 7px;
+    top: 292px;
+    bottom: 654px;   
+    
+}
+
+.courses-container .courses .course .course-info .course-code {
+    
+    width: 88px;
+    height: 24px;
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    font-weight: bold;
+    color: #7d1419;
+    position: absolute;
+    left: 6px;
+                            
+    top: 258px;
+    bottom: 720px;
+}
+
+.courses-container .courses .course .course-info .course-date {
+    
+    width: 115px;
+    height: 23px
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    font-weight: 100;
+    color: #000000;
+    position: absolute;
+    left: 4px;
+                                
+    top: 360px;
+    bottom: 319px;
+}
+
+
 p .courses-heading {
     
     width: 462.3px;
