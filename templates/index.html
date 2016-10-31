@@ -178,7 +178,15 @@ from microsite_configuration import microsite
     <section class="highlighted-courses">
 
       % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
-        <section class="courses">
+        <section class="courses" style="width: 100%
+                                        height: 1002px
+                                        margin: 0px
+                                        padding: 0px
+                                        position: absolute
+                                        left: 130px
+                                        right: 95px
+                                        top: 186px
+                                        bottom: 164px">
             <ul class="courses-listing">
             ## limiting the course number by using HOMEPAGE_COURSE_MAX as the maximum number of courses
             %for course in courses[:settings.HOMEPAGE_COURSE_MAX]:
