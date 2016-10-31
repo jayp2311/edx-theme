@@ -190,13 +190,13 @@ from microsite_configuration import microsite
             <ul class="courses-listing">
             ## limiting the course number by using HOMEPAGE_COURSE_MAX as the maximum number of courses
             %for course in courses[:settings.HOMEPAGE_COURSE_MAX]:
-              <li class="courses-listing-item" style="width: 250px
-                        height: 400px
-                        background-color: #ffffff
-                        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.24)
-                        position: absolute 
-                        left: 0px
-                        bottom: 601.3px">
+              <li class="courses-listing-item" style="width: 250px!important;
+                        height: 400px!important;
+                        background-color: #ffffff!important;
+                        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.24)!important;
+                        position: absolute!important;
+                        left: 0px!important
+                        bottom: 601.3px!important">
                 <%include file="course.html" args="course=course" />
               </li>
             %endfor
