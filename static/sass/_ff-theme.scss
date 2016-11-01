@@ -58,6 +58,38 @@ $white: #ffffff;
 $black: #000000;
 
 
+.header-global wrapper-header .left nav-global #SignUp-Rectangle {
+            
+            width: 150px;
+			height: 40px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 20px;
+			background-color: $white;
+			position: absolute;
+			right: 110px;
+			top: 16px;
+            
+            #SignUp-Text{
+                
+                h4 {
+                    width: 75px;
+                    height: 22px;
+                    font-family: $font_0;
+                    font-size: 18px;
+                    font-weight: bold;
+                    text-align: center;
+                    color: $black;
+                    position: absolute;
+                    left: 38px;
+                    top: 10px;
+                    bottom: 9px;
+                    
+                    
+                }
+            }
+        }
+
+
 #testimonials {
 			#rectangle-65copy {
 				max-width: 100%;
@@ -651,7 +683,11 @@ p .courses-heading {
     
 }
 }  
-    
-    
+
+// Custom Modifications to the default sytlesheet
+.logo { 
+    margin: 10px!important;
+    background-color:red;
+    }
     
     
