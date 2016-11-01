@@ -58,8 +58,9 @@ $white: #ffffff;
 $black: #000000;
 
 
-.header-global wrapper-header .left nav-global #SignUp-Rectangle {
+.header-global wrapper-header .left nav-global {
             
+    #SignUp-Rectangle {
             width: 150px;
 			height: 40px;
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
@@ -89,7 +90,7 @@ $black: #000000;
             }
         }
 
-
+}
 #testimonials {
 			#rectangle-65copy {
 				max-width: 100%;
@@ -686,15 +687,6 @@ p .courses-heading {
 
 // Custom Modifications to the default sytlesheet
 .logo { 
-    #Rectangle-navbar {
-        
-        width: 100%;
-        height: 72px;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden;
-        background-color: $color_sea_nymph_80_approx;
-        postion: relative;
         
         #Rectangle-ff {
             
@@ -728,7 +720,6 @@ p .courses-heading {
         
         }
     
-    }
     }
     
     
