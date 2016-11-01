@@ -651,23 +651,19 @@ p .courses-heading {
     
     .footer-right {
         
+        width: 57px;    
+        height: 28px;
+        font-family: $font_0;
+        font-size: 24px;
+        
         text5 {
-            width: 57px;    
-            height: 28px;
-            font-family: $font_0;
-            font-size: 24px;
             color: $white;
-            position: absolute;
-            right: 79px;
-            
+            position: absolute!;
+            right: 79px!important;
             bottom: 328px!important;
         }
         
         .text1 {
-            width: 57px;    
-            height: 28px;
-            font-family: $font_0;
-            font-size: 24px;
             color: $black;
             position: absolute;
             right: 79px;
@@ -676,38 +672,24 @@ p .courses-heading {
         }
         
         .text2 {
-            width: 57px;    
-            height: 28px;
-            font-family: $font_0;
-            font-size: 24px;
+    
             color: $black;
             position: absolute;
             right: 79px;
-            
             bottom: 268px!important;
         }
         
         .text3 {
-            width: 57px;    
-            height: 28px;
-            font-family: $font_0;
-            font-size: 24px;
             color: $black;
             position: absolute;
             right: 79px;
-            
             bottom: 238px!important;
         }
         
         .text4 {
-            width: 57px;    
-            height: 28px;
-            font-family: $font_0;
-            font-size: 24px;
             color: $black;
             position: absolute;
             right: 79px;
-            
             bottom: 208px!important;
         }
     }
