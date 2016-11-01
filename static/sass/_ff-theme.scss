@@ -73,6 +73,7 @@ $black: #000000;
     
     position: absolute;
     left: 0px;
+    top: 0.7px;
     bottom: 601.3px;
     
 }
@@ -156,6 +157,12 @@ $black: #000000;
     left: 7px;
     top: 292px;
     bottom: 654px;   
+    
+}
+
+.courses-container .courses .course {
+    
+    border-bottom: 3px solid $color_falu_red_approx;
     
 }
 
