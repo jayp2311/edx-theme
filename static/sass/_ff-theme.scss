@@ -47,7 +47,8 @@ $font_0: HelveticaNeue;
 $font_1: Helvetica;
 
 
-
+// Header
+$header-bg: #d6d9bb;
 
 
 //-----------------
@@ -60,7 +61,7 @@ $black: #000000;
 
 .header-global wrapper-header .left nav-global {
             
-    #SignUp-Rectangle {
+    #SignUp-Rectangle {1
             width: 150px;
 			height: 40px;
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
@@ -687,7 +688,11 @@ p .courses-heading {
 
 // Custom Modifications to the default sytlesheet
 .logo { 
-        
+    
+    
+    
+    a
+        /*
         #Rectangle-ff {
             
             width: 50px;
@@ -718,8 +723,26 @@ p .courses-heading {
                 
             }
         
-        }
+        } */
     
     }
+#global-navigation { 
+    
+    .nav-wrapper {
+        
+        ol { 
+        
+            li.nav-global-04 { 
+                a { 
+                    border: 1px solid;
+                    padding: 15px 20px;
+                    color: black;
+                    background-color: white;
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+}
     
     
