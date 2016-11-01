@@ -57,6 +57,20 @@ $font_1: Helvetica;
 $white: #ffffff;
 $black: #000000;
 
+.home .highlighted-courses {
+    
+    box-sizing: border-box;
+    width: 100%;
+    height: 1002px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 130px;
+    right: 95px;
+    top: 186px;
+    bottom: 164px;
+}
+
 
 .home .courses-container .courses .courses-listing .courses-listing-item {
 
