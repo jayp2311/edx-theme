@@ -83,9 +83,9 @@ $black: #000000;
 						border-radius: 5px;
 						color: $black;
 						position: absolute;
-						left: 0;
-						top: 3px;
-						bottom: 0;
+						left: 0px;
+						top: 0px;
+						bottom: 0px;
 					}
 					p {
 						width: 195px;
@@ -660,7 +660,7 @@ p .courses-heading {
             position: absolute;
             right: 79px;
             
-            bottom: 328px;
+            bottom: 328px!important;
         }
         
         .text1 {
@@ -672,7 +672,7 @@ p .courses-heading {
             position: absolute;
             right: 79px;
             top: 94px;
-            bottom: 298px;
+            bottom: 298px!important;
         }
         
         .text2 {
@@ -684,7 +684,7 @@ p .courses-heading {
             position: absolute;
             right: 79px;
             
-            bottom: 268px;
+            bottom: 268px!important;
         }
         
         .text3 {
@@ -696,7 +696,7 @@ p .courses-heading {
             position: absolute;
             right: 79px;
             
-            bottom: 238px;
+            bottom: 238px!important;
         }
         
         .text4 {
@@ -708,7 +708,7 @@ p .courses-heading {
             position: absolute;
             right: 79px;
             
-            bottom: 208px;
+            bottom: 208px!important;
         }
     }
     
