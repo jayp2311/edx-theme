@@ -58,54 +58,6 @@ $white: #ffffff;
 $black: #000000;
 
 
-.header-global h1.logo {
-    
-    #Rectangle-navbar {
-        
-        width: 100%;
-        height: 72px;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden;
-        background-color: $color_sea_nymph_80_approx;
-        postion: relative;
-        
-        #Rectangle-ff {
-            
-            width: 50px;
-			height: 50px;
-			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-			border-radius: 5px;
-			background-color: $white;
-			position: absolute;
-			left: 110px;
-			top: 11px;
-			bottom: 11px;
-            
-        }
-        
-        #Navbar-text {         
-            h6 {
-                width: 146px;
-                height: 33px;
-                font-family: $font_0;
-                font-size: 24px;
-                text-align: center;
-                color: $white;
-                position: absolute;
-                left: 171.5px;
-                top: 24px;
-                bottom: 21px;
-                
-                
-            }
-        
-        }
-    
-    }
-}
-
-
 .header-global wrapper-header .left nav-global #SignUp-Rectangle {
             
             width: 150px;
@@ -734,8 +686,49 @@ p .courses-heading {
 
 // Custom Modifications to the default sytlesheet
 .logo { 
-    margin: 10px!important;
-    background-color:red;
+    #Rectangle-navbar {
+        
+        width: 100%;
+        height: 72px;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        background-color: $color_sea_nymph_80_approx;
+        postion: relative;
+        
+        #Rectangle-ff {
+            
+            width: 50px;
+			height: 50px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 5px;
+			background-color: $white;
+			position: absolute;
+			left: 110px;
+			top: 11px;
+			bottom: 11px;
+            
+        }
+        
+        #Navbar-text {         
+            h6 {
+                width: 146px;
+                height: 33px;
+                font-family: $font_0;
+                font-size: 24px;
+                text-align: center;
+                color: $white;
+                position: absolute;
+                left: 171.5px;
+                top: 24px;
+                bottom: 21px;
+                
+                
+            }
+        
+        }
+    
+    }
     }
     
     
