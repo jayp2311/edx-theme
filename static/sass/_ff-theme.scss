@@ -659,16 +659,10 @@ p .courses-heading {
     color: #ffffff;
     
     }
-#global-navigation { 
+
+header.global .nav-global li a {
     
-    .nav-wrapper {
-        
-        ol { 
-        
-            li.nav-global-04 {
-                
-                a { 
-                    width: 150px;
+    width: 150px;
                     height: 40px;
                     border-radius: 20px;
                     color: #000000;
@@ -679,12 +673,7 @@ p .courses-heading {
                     text-align: center;
                     font-size: 18px;
                     font-family: HelveticaNeue;
-                }
-            }
-        }
-    }
 }
-
 
 
 header.global .nav-courseware li .cta {
