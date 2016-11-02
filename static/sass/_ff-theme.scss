@@ -698,25 +698,17 @@ p .courses-heading {
         
         ol { 
         
-            li.nav-global-04 { 
-                
-                width: 150px;
-                height: 40px;
-                background-color: $white;
-                /* border-radius: 20px; */
-                position: relative;
-                left: 570px;
-                top: 16px;
+            li.nav-global-04 {
                 
                 a { 
-                    position: relative;
+                    width: 150px;
+                    height: 40px;
                     border-radius: 20px;
-                    padding: 15px 20px;
                     color: #000000;
-                    
+                    background-color: #ffffff;
                     position: relative;
-                    left: 160px;
-                    top: -28px;
+                    left: 730px;
+                    bottom: 15px;
                     text-align: center;
                     font-size: 18px;
                     font-family: HelveticaNeue;
