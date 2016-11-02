@@ -685,31 +685,21 @@ p .courses-heading {
     }
 }
 
-#global-navigation {
+
+
+header.global .nav-courseware li .cta {
     
-    .nav-wrapper {
-        
-        ol.right nav-courseware {
-            
-            li.nav-courseware-01 {
-                
-                a {
-                    width: 150px;
-                    height: 40px;
-                    border-radius: 20px;
-                    color: #000000;
-                    background-color: #ffffff;
-                    position: relative;
-                    right: 230px;
-                    bottom: 5px;
-                    text-align: center;
-                    font-size: 18px;
-                    font-family: HelveticaNeue;
-                    
-                }
-            }
-        }
-    }
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color: #000000;
+    background-color: #ffffff;
+    position: relative;
+    right: 230px;
+    bottom: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: HelveticaNeue;
 }
     
     
