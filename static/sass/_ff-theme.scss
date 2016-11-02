@@ -717,5 +717,32 @@ p .courses-heading {
         }
     }
 }
+
+#global-navigation {
+    
+    .nav-wrapper {
+        
+        ol {
+            
+            li.nav-courseware-01 {
+                
+                a {
+                    width: 150px;
+                    height: 40px;
+                    border-radius: 20px;
+                    color: #000000;
+                    background-color: #ffffff;
+                    position: relative;
+                    left: 430px;
+                    bottom: 15px;
+                    text-align: center;
+                    font-size: 18px;
+                    font-family: HelveticaNeue;
+                    
+                }
+            }
+        }
+    }
+}
     
     
