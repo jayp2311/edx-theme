@@ -608,6 +608,43 @@ header.global {
     
     .nav-wrapper {
         
+        .user{
+            
+            max-height: 40px;
+            max-width: 150px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-right: -300px;
+            background: #ffffff;
+        }
+        
+        
+    }
+}
+
+#global-navigation {
+    
+    .nav-wrapper{
+        
+        .left nav-global authenticated {
+            
+            
+            margin-right: 150px;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin-left: 0px; 
+        }
+    }
+}
+
+
+
+#global-navigation {
+    
+    .nav-wrapper {
+        
         
         
         .logo {
