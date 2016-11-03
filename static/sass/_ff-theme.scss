@@ -541,37 +541,59 @@ p .courses-heading {
     
     }
 
-header.global .nav-global li a {
+
+header.global {
     
-    width: 150px;
-    height: 40px;
-    border-radius: 20px!important;
-    padding: 0px!important;
-    color: #000000!important;
-    background-color: #ffffff!important;
-    position: relative;
-    left: 730px;
-    bottom: 10px;
-    text-align: center;
-    font-size: 18px;
-    font-family: HelveticaNeue;
+    .nav-global {
+        
+        width: 150px;
+        height: 40px;
+        border-radius: 20px!important;
+        background-color: #ffffff!important;
+        
+        
+        li {
+            
+            a {
+                
+                padding: 0px!important;
+                color: #000000!important;
+                background-color: #ffffff!important;
+                text-align: center;
+                font-size: 18px;
+                font-family: HelveticaNeue;
+                
+                
+            }
+        }
+    }
 }
 
 
-header.global .nav-courseware li .cta {
+header.global {
     
-    width: 150px;
-    height: 40px;
-    border-radius: 20px!important;
-    color: #000000!important;
-    background-color: #ffffff!important;
-    box-shadow: none;
-    position: relative;
-    right: 230px;
-    bottom: 5px;
-    text-align: center;
-    font-size: 18px!important;
-    font-family: HelveticaNeue!important;
+    .nav-courseware {
+        
+        width: 150px;
+        height: 40px;
+        border-radius: 20px!important;
+        background-color: #ffffff!important;
+        
+        li {
+            
+            .cta {
+                
+                color: #000000!important;
+                box-shadow: none!important;
+                text-align: center;
+                font-size: 18px!important;
+                font-family: HelveticaNeue!important;
+                
+                
+            }
+        }
+    }
 }
+
     
     
