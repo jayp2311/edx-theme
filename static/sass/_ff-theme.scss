@@ -618,6 +618,7 @@ header.global {
             padding-right: 15px;
             margin-right: -300px;
             background: #ffffff;
+            border-radius: 20px;
         }
         
         
@@ -628,7 +629,7 @@ header.global {
     
     .nav-wrapper{
         
-        .left nav-global authenticated {
+        ol.left nav-global authenticated {
             
             
             margin-right: 150px;
