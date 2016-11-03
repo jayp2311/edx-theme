@@ -582,18 +582,19 @@ header.global {
         height: 40px;
         border-radius: 20px!important;
         background-color: #ffffff!important;
+        margin-top: 3px!important;
         
         li {
             
             .cta {
                 
-                background: #ffffff;
+                background: #ffffff!important;
                 color: #000000!important;
                 box-shadow: none!important;
                 text-align: center!important;
                 font-size: 18px!important;
                 font-family: HelveticaNeue!important;
-                font-weight: bold;
+                font-weight: bold!important;
                 text-transform: uppercase;
                 margin-left: 18px;
                 
