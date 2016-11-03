@@ -549,7 +549,6 @@ header.global {
         width: 150px;
         height: 40px;
         border-radius: 20px!important;
-        background-color: #ffffff!important;
         float: right!important;
         text-align: center;
         margin-left: 30px;
@@ -570,6 +569,16 @@ header.global {
                 
             }
         }
+    }
+}
+
+header.global{
+    
+    ol.nav-global authenticated {
+        
+        margin-right: 200px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -607,6 +616,8 @@ header.global {
 #global-navigation {
     
     .nav-wrapper {
+        
+        
         
         .logo {
             
