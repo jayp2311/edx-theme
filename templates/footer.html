@@ -1,0 +1,143 @@
+## mako
+<%!
+  from django.core.urlresolvers import reverse
+  from django.utils.translation import ugettext as _
+%>
+<%!
+  from datetime import date
+%>
+<%namespace name='static' file='/static_content.html'/>
+<!--
+<div class="wrapper-footer">
+  <footer>
+    <div class="colophon">
+      <nav class="nav-colophon">
+        <ol>
+          <li><a href="${reverse('about')}">${_("About")}</a></li>
+          <li><a href="${reverse('about')}#contact">${_("Contact")}</a></li>
+          <li><a href="${reverse('tos')}">${_("Terms of Service")}</a></li>
+          <li><a href="${reverse('tos')}#privacy">${_("Privacy Policy")}</a></li>
+          <li><a href="${reverse('tos')}#honor">${_("Honor Code")}</a></li>
+          <li><a href="${reverse('tos')}#copyright">${_("Copyright")}</a></li>
+        </ol>
+      </nav>
+    </div>
+    <div class="copyright">
+        <p><span>
+            ${_('Copyright {year}. All rights reserved.').format(
+                year=date.today().year
+            )}
+        </span></p>
+    </div>
+  </footer>
+</div> -->
+<!-- <div class="bottom_banner_one">
+  <div class="row">
+    <div class="col-md-12 heading" >WHY SEED-MOOC ?</div>
+    <div class="col-md-2"></div>
+    <div class="col-md-3">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus. Nulla semper viverra eros, non tempus nisl. Quisque quis risus nec neque ultrices maximus eget vitae augue. Integer iaculis elit et massa volutpat rhoncus.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus. Nulla semper viverra eros, non tempus nisl.</p>
+        <br />
+        <p>
+          <a href="" class="top_banner_btn">LEARN MORE</a>
+        </p>
+    </div>
+    <div class="col-md-2">
+      <img src="${static.url('images/3rd_fold_icons.png')}" alt="">
+    </div>
+    <div class="col-md-3">
+      <div class="row">
+        <div class="col-md-12">
+          <strong>Farming</strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus. Nulla semper viverra eros, non tempus nisl.</p>
+          <br>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-11">
+          <strong>Boundless</strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus. Nulla semper viverra eros, non tempus nisl.</p>
+          <br>
+        </div>
+        <div class="col-md-12">
+          <strong>Personalized</strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus. Nulla semper viverra eros, non tempus nisl.</p>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+
+<div class="bottom_banner_two">
+  <img src="${static.url('images/bottom_banner.png')}" alt="">
+  <p><span>BE OUTSTANDING IN THE</span><br /><span>FIELD OF AGRICULTURE</span></p>
+  <br>
+  <p class="action_btn" ><span><a class="top_banner_btn" href="#JOINNOW"> Join Now </a></span></p>
+</div> -->
+
+<!-- Footer -->
+<div class="wrapper-footer">
+  <footer style="margin-top:-5px!important;">
+    <div class="row">
+       <div class="col-md-2 col-lg-2" style="margin-left:-30px;">
+       </div>
+       <div class="col-md-6 col-lg-6">
+        <p class="footer-title">
+			<firstletter>F</firstletter>amilies <firstletter>F</firstletter>irst
+		</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut euismod lacus. Nulla semper viverra eros, non tempus nisl. Quisque quis risus nec neque ultrices maximus eget vitae augue. Integer iaculis elit et massa volutpat rhoncus. Nullam tincidunt dolor sed tincidunt ultrices. Ut tellus ipsum, vehicula in nisi commodo, imperdiet congue ipsum. In a ipsum in eros vehicula sollicitudin accumsan fermentum mi.</p>
+        </div>
+        <p>
+        </p>
+        <div class="col-md-1 col-log-1"></div>
+        <div class="col-md-3 col-lg-3">
+        <div class="footer-right">
+			<p class="footer-title">
+				<firstletter>L</firstletter>earn <firstletter>M</firstletter>ore
+			</p>
+            <ul>
+              <li><a href="${reverse('about')}">${_("About")}</a></li>
+              <li><a href="${reverse('privacy')}">${_("Privacy Policy")}</a></li>
+              <li><a href="${reverse('contact')}">${_("Contact")}</a></li>
+              <li><a href="${reverse('faq')}">${_("FAQ's")}</a></li>
+              <li><a href="${reverse('tos')}">${_("Terms and Conditions")}</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    <br />
+  <div class="row">
+    <div class="col-md-2 col-lg-2"></div>
+    <div class="col-md-4 col-lg-4">
+    <div class="footer-social-media">
+    <ul>
+      <li>
+          <a href="#Facebook"><img src="${static.url('images/facebook.png')}"  height="30" width="30" alt="SeedMooc"></a>
+      </li>
+      <li>
+          <a href="#Twitter"><img src="${static.url('images/twitter.png')}"   height="30" width="30" alt="SeedMooc"></a>
+      </li>
+      <li>
+          <a href="#Instagram"><img src="${static.url('images/instagram.png')}" height="30" width="30" alt="SeedMooc"></a>
+      </li>
+      <li>
+        <a href="mailto:contact@seedmoocs.org"><img src="${static.url('images/email.png')}" height="30" width="30" alt="SeedMooc"></a>
+      </li>
+    </ul>
+    </div>
+    </div>
+  </div>
+    <br />
+<!--     <div class="copyright">
+        <p><span>
+            ${_('Copyright {year}. All rights reserved.').format(
+                year=date.today().year
+            )}
+        </span></p>
+    </div> -->
+  </footer>
+</div>
