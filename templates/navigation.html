@@ -40,9 +40,9 @@ site_status_msg = get_site_status_msg(course_id)
   <header id="global-navigation" class="global ${"slim" if course else ""}" >
     <nav class="nav-wrapper" aria-label="${_('Global')}">
     <h1 class="logo" >
-      <a href="${marketing_link('ROOT')}"> Families First
+      <a href="${marketing_link('ROOT')}">
         <%block name="navigation_logo">
-            <!--<img src="static/themes/ff-theme/images/OpenEdXLogo.png" alt="${_("{platform_name} Home Page").format(platform_name=platform_name())}"/> -->
+            <img src="" style="font-size=24px;font-family=HelveticaNeue;color=#ffffff" alt="${_("{platform_name} Families First").format(platform_name=platform_name())}"/>
         </%block>
       </a>
     </h1>
