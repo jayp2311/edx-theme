@@ -550,19 +550,23 @@ header.global {
         height: 40px;
         border-radius: 20px!important;
         background-color: #ffffff!important;
+        float: right;
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 70px;
+        margin-top: 3px!important;
         
         
         li {
             
             a {
-                
+                margin-top: 10px;
                 padding: 0px!important;
                 color: #000000!important;
                 background-color: #ffffff!important;
                 text-align: center;
                 font-size: 18px;
                 font-family: HelveticaNeue;
-                
                 
             }
         }
