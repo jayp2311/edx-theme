@@ -284,14 +284,24 @@ Course experience styling
 
 */
 
-.wrapper-course-material ol.course-tabs li a&:active {
+.wrapper-course-material ol.course-tabs li a {
+    
+    active {
     
     background-color: $color_falu_red_approx;
+    }
+    
 }
 
-.wrapper-course-material ol.course-tabs li a&:hover {
+.wrapper-course-material ol.course-tabs li a{
+    
+    hover {
     
      background-color: $color_falu_red_approx;
+    
+    }
+    
+    
 }
 
 body.view-in-course .wrapper-course-material .course-material, body.view-in-course .wrapper-preview-menu .preview-menu {
