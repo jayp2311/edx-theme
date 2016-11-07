@@ -278,6 +278,29 @@ body.view-in-course .container {
 
 
 
+/*
+
+Course experience styling 
+
+*/
+
+.wrapper-course-material ol.course-tabs li a.active {
+    
+    background-color: $color_falu_red_approx;
+}
+
+.wrapper-course-material ol.course-tabs li a.hover {
+    
+     background-color: $color_falu_red_approx;
+}
+
+
+/*
+
+Course list styling 
+
+*/
+
 .courses-container .courses-listing-item {
     
     margin-bottom: 150px!important;
