@@ -270,7 +270,7 @@ $black: #000000;
 
 
 
-.home .courses-container .courses .courses-listing .courses-listing-item {
+.courses-container .courses-listing-item {
     
     margin-bottom: 150px!important;
     margin-right: 175px!important;
@@ -621,13 +621,10 @@ header.global {
     
     .nav-wrapper{
         
-        ol.left nav-global-01 {
+        ol.left nav-global authenticated {
             
-            
-            margin-right: 150px;
             padding-right: 10px!important;
             padding-left: 10px!important;
-            margin-left: 0px; 
         }
     }
 }
