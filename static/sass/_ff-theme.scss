@@ -41,6 +41,7 @@ $color_falu_red_approx: #7d1419;
 $color_tana_approx: #d6d9bb;
 $black_12: rgba(0, 0, 0, 0.12);
 $black_24: rgba(0, 0, 0, 0.24);
+$blue: rgb(241, 190, 72);
 
 //fonts
 $font_0: HelveticaNeue;
@@ -50,6 +51,28 @@ $font_1: Helvetica;
 // Header
 $header-bg: rgba(121, 151, 151, 0.8);
 
+// Buttons 
+$link-color: $color_sea_nymph_80_approx;
+$link-hover: $color_tana_approx;
+
+$action-primary-bg: $color_sea_nymph_80_approx;
+$action-primary-fg: #ffffff;
+
+$action-primary-focused-bg: $color_tana_approx;
+$action-primary-focused-fg: #ffffff;
+$action-primary-active-bg: $color_sea_nymph_80_approx;
+
+$action-primary-disabled-bg: $color_sea_nymph_80_approx;
+$action-prmary-disabled-fg: $color_tana_approx;
+    
+$button-bg-hover-color: $blue;
+
+/* Course elements*/
+
+$content-wrapper-bg: $white !default;
+$course-bg-color: #f2f2f2 !default;
+$course-profile-bg: rgb(245,245,245) !default;
+$course-header-bg: rgba(255,255,255, 0.93) !default;
 
 //-----------------
 // Footer Styling
