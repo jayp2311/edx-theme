@@ -294,11 +294,10 @@ Course experience styling
      background-color: $color_falu_red_approx;
 }
 
-.wrapper-preview-menu {
+body.view-in-course .wrapper-course-material .course-material, body.view-in-course .wrapper-preview-menu .preview-menu {
     
-    background-color: $color_tana_approx;
+    background-color: #d6d9bb;
 }
-
 
 /*
 
