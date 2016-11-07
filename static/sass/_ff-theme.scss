@@ -281,6 +281,11 @@ $black: #000000;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.24)!important;
 }
 
+// just to disable the wired alignment 
+.home .courses-container .courses .courses-listing .courses-listing-item:nth-child(4n+1) {
+    
+    clear: none;
+}
 
 .courses-container .courses{
     
