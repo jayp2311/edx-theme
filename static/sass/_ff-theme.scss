@@ -704,6 +704,11 @@ Course experience styling
 
 */
 
+.view-profile .profile-self .wrapper-profile-field-account-privacy {
+    
+    background-color: #d6d9bb!important;
+}
+
 body.view-in-course .container {
     
     padding: 0px!important;
@@ -725,7 +730,7 @@ body.view-in-course .wrapper-preview-menu {
 .wrapper-course-material ol.course-tabs li {
     
     a {
-        color: #ffffff; 
+        color: #ffffff!important; 
     }
     
     
