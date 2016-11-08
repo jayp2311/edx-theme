@@ -41,9 +41,10 @@ site_status_msg = get_site_status_msg(course_id)
     <nav class="nav-wrapper" aria-label="${_('Global')}">
     <h1 class="logo" >
       <a href="${marketing_link('ROOT')}">
+        
         <%block name="navigation_logo">
-            <img src="static/themes/ff-themes/images/ff-logo.png" alt="${_("{platform_name} Home Page").format(platform_name=platform_name())}"/>
-        </%block>
+            <img src="static/images/ff-logo.png" alt="${_("{platform_name} Home Page").format(platform_name=platform_name())}"/>
+        </%block> 
       </a>
     </h1>
 
