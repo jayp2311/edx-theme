@@ -11,7 +11,7 @@ $light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Main BG Color Variables
-$main-bg: #822537;
+$main-bg: #7d1419;
 $main-bg-60: lighten($main-bg, 18.5%); //Main Border/HR Color
 $main-bg-25: lighten($main-bg, 25%); 
 
@@ -281,6 +281,169 @@ body.view-in-course .container {
 				bottom: 591px;
 			}
 		}
+
+
+
+/*
+
+Login pages styling
+
+*/
+
+#login, #register-form, #password-reset-form {
+	margin: 0 auto;
+}
+
+#login, #password-reset,#register,#passwordreset-form {
+	border-bottom: 3px solid #7d1419;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.24),0px 4px 2px 0px rgba(0,0,0,0.12);
+	  -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.24),0px 4px 2px 0px rgba(0,0,0,0.12);
+	  -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.24), 0px 4px 2px 0px rgba(0,0,0,0.12);
+}
+#login-and-registration-container {
+	background-color: #F8F8F8!important;
+}
+#password-reset > div.section-title.lines > h2 > span {
+	top: 8px!important;
+}
+
+#login > div.section-title.lines:after {
+  top: 50px!important;
+}
+
+.login-register .section-title.lines:after, .financial-assistance-wrapper .financial-assistance-form .section-title.lines:after, {
+	position: absolute;
+	left: 0;
+	top: 56px!important;
+	width: 100%;
+	height: 1px;
+	background: #7d1419!important;
+	content: '';
+	z-index: 5;
+}
+
+.login-heading,#register > div.section-title.lines > h2 > span, #passwordreset-form > div.section-title.lines > h2 > span {
+	font-size: 28px;
+	line-height: 32px;
+	font-family: $font_0;
+	color: #7d1419;
+	font-weight: 700;
+	text-transform: uppercase;
+	fl {
+		font-size: 32px!important;
+	}
+}
+#login {
+	padding: 0px 105px;
+	max-width: 560px;
+}
+#login > div.section-title.lines {
+	margin: 28px -72px 0px -72px;
+}
+
+#login > div.form-field.email-email > label {
+	font-size: 18px!important;
+	padding-top: 40px;
+	font-family: $font_1;
+	line-height: 24px;
+	color: #4A4A4A!important;
+}
+#login > div.form-field.password-password {
+	margin-top: -32px!important;
+}
+
+#login > div.form-field.password-password > label {
+	padding-top: 22px;
+	font-size: 18px;
+}
+
+#login-email,#login-password,#new_password1,#new_password2 {
+	font-size: 18px;
+	font-family: $font_0;
+	border-radius: 5px;
+	color: #4A4A4A;
+}
+textarea:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="tel"]:focus {
+	border-color: #7d1419!important;
+	border-radius: 5px;
+	box-shadow: 0 0 6px 0 #7d1419,inset 0 0 4px 0 rgba(0,0,0,0.15)!important;
+}
+
+#login > div.form-field.password-password > a {
+	color: #7d1419;
+	font-family: $font_1;
+	font-size: 18px;
+}
+#login-remember {
+	width: 24px;
+	height: 24px;
+}
+#login > div.form-field.checkbox-remember > label {
+	font-size: 16px;
+	font-family: $font_1;
+	border-radius: 5px;
+	color: #4A4A4A;
+}
+
+.login-register-link {
+	font-size: 16px;
+	font-family: $font_1;
+	font-weight: 400;
+	padding: 32px 0px 52px;
+}
+#login > div.form-field.checkbox-remember {
+	margin-top: -35px!important;
+	float: left!important;
+	width: 60%;
+}
+#login > div.form-field.password-password > a {
+	font-size: 16px;
+	float:right;
+}
+#login > button {
+	margin-top: 20px;
+}
+#register>div.form-field.email-email label, #register>div.form-field.text-name label, #register>div.form-field.text-username label, #register>div.form-field.password-password label, #passwordreset-form > div.form-field.new_password1-new_password1 > label,#passwordreset-form > div.form-field.new_password2-new_password2 > label {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+#login-form > div.toggle-form > button , #login > button, #password-reset > button, #register > button,#passwordreset-form > button, #u-field-link-password > button {
+	text-decoration: none!important;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+	color: #ffffff!important;
+	background-color: #7d1419!important;
+	padding: 8px 11px;
+	font-family: HelveticaNeue;
+	font-size: 18px!important;
+	font-weight: 700!important;
+	border-radius:2.5px!important;
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.24),0px 4px 2px 0px rgba(0,0,0,0.12);
+	  -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.24),0px 4px 2px 0px rgba(0,0,0,0.12);
+	  -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.24), 0px 4px 2px 0px rgba(0,0,0,0.12);
+	/* height: 40px;*/
+	/* width: 120px;*/
+	line-height: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	/* letter-spacing: 1.01px;*/
+	&:hover {
+	background-color: $main-bg-25!important;
+	color: #ffffff!important;
+	}
+	&:active {
+	background-color: $main-bg-25!important;
+	color: #ffffff!important;
+	}
+	&:visited {
+	color: #ffffff!important;
+	}
+}
+#login-form > div.toggle-form > button , #login > button, #password-reset > button {
+	padding: 4px 11px;
+}
 
 
 
