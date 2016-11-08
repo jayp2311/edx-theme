@@ -286,6 +286,221 @@ body.view-in-course .container {
 
 /*
 
+Forgot Password
+
+*/
+
+#password-reset {
+	padding: 0px 32px;
+	max-width: 560px;
+}
+#login-form, #register-form,#institution_login-form, #hinted-login-form,#password-reset-confirm-form {
+	padding-top: 96px;
+}
+#password-reset-confirm-form {
+	margin-left: 25px;
+}
+#register-form, #password-reset-form{
+	max-width: 560px;
+	padding-top: 86px!important;
+}
+#passwordreset-form {
+	max-width: 560px;
+}
+#password-reset > div.section-title.lines > h2 {
+	font-size: 28px;
+	line-height: 32px;
+	font-family: $font_0;
+	color: #7d1419;
+	font-weight: 700;
+	text-transform: uppercase;
+	fl {
+		font-size: 32px!important;
+	}
+}
+#password-reset > p, #new_password_help_text {
+	font-size: 18px!important;
+	line-height: 24px;
+	padding: 30px 0px 0px 0px;
+	max-width: 350px;
+	margin: 0 auto;
+	padding: 5px 0px;
+	margin-top: 45px;
+}
+#password-reset > div.form-field.email-email {
+	max-width: 350px;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#password-reset > button  {
+	max-width: 350px;
+	margin: 0px 70px;
+	margin-bottom: 48px;
+}
+
+#register > div.form-field.email-email, #register > div.form-field.text-name, #register > div.form-field.text-username, #register > div.form-field.password-password,#register > div.form-field.checkbox-honor_code,#register > button {
+	font-size: 18px;
+	color: #4A4A4A;
+	line-height: 24px;
+	max-width: 350px;
+	margin: 0 auto;
+	label {
+		padding-top: 10px;
+		margin-bottom:0px;
+	}
+}
+
+#register > button {
+	margin-top: 36px;
+	margin-left: 80px;
+}
+
+#register > div.form-field.checkbox-honor_code {
+  font-size:16px;
+  label {
+	padding-top: 0px!important;
+  }
+}
+.login-register .form-field .tip, .financial-assistance-wrapper .financial-assistance-form .form-field .tip {
+	font-size:12px;
+	font-family: $font_0;
+	font-weight: 400;
+}
+#register-name-desc,#register-username-desc,#register > div.form-field.checkbox-honor_code {
+  font-size:12px;
+  font-family: $font_0;
+  font-weight: 400;
+}
+#register > div.form-field.checkbox-honor_code > label {
+  font-size:16px;
+}
+
+#register > div.section-title.lines > h2 > span {
+  top: 10px;
+}
+#register > div.section-title.lines:after {
+  top:58px!important;
+}
+
+#register > div.form-field.email-email
+{
+  padding-top:22px
+}
+
+
+#register-form > div, #login-form > div:nth-child(2) > div.status.submission-error, #password-reset-form > div,#login-form > div:nth-child(2) > div.js-reset-success.status.submission-success {
+	background-color: inherit;
+	box-shadow: none;
+	margin-top: -75px;
+	margin-bottom:32px!important;
+	max-width: 560px;
+	font-size: 18px;
+	h4 {
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 24px;
+		color: $color_sea_nymph_80_approx24;
+		// padding-bottom:18px;
+	}
+	ul {
+		padding-top: 20px;
+		li {
+			font-size: 18px;
+			list-style:none;
+			margin-left: 0px;
+		}
+	}
+}
+
+#login-form > div:nth-child(2) > div.status.submission-error,#login-form > div:nth-child(2) > div.js-reset-success.status.submission-success {
+	margin-left: 25px;
+}
+
+#register-form > div {
+	margin-top: -86px;
+}
+
+.login-register .submission-success, .financial-assistance-wrapper .financial-assistance-form .submission-success {
+	box-shadow: none!important;
+	border-bottom: 3px solid $color_tana_approx!important;
+	background: inherit!important;
+}
+
+#login-form > div:nth-child(2) > div.js-reset-success.status.submission-success > h4,#password-reset-complete > div > h4 {
+	color: $color_tana_approx!important;
+	padding-bottom: 18px;
+}
+
+#new_password_help_text {
+	margin: 0 auto;
+	margin-top: 45px;
+	margin-bottom: 4px;
+	color:#4A4A4A;
+	font-size:18px;
+	line-height:24px;
+
+}
+#passwordreset-form > div.form-field.new_password1-new_password1,#passwordreset-form > div.form-field.new_password2-new_password2 {
+	max-width: 350px;
+	margin: 0 auto;
+}
+
+#password-reset-complete {
+	max-width: 560px;
+	padding-bottom: 100px;
+	padding: 0px 25px;
+	margin-left: 25px;
+}
+
+#passwordreset-form>div.section-title.lines>h2>span {
+	top:8px!important;
+}
+#passwordreset-form > button {
+	max-width: 350px;
+	margin-top: 43px;
+	margin-bottom: 28px;
+	margin-left: 80px;
+}
+#password-reset-email {
+  border-radius:5px;
+}
+
+.wrapper-account-settings .wrapper-header .account-nav .account-nav-item button.active {
+	border-bottom: 3px solid #7d1419!important;
+}
+.wrapper-account-settings .wrapper-header .account-nav .account-nav-item button:hover, .wrapper-account-settings .wrapper-header .account-nav .account-nav-item button:focus {
+	text-decoration: none;
+	border-bottom: 3px solid #7d1419!important;
+}
+
+.account-settings-sections .section .account-settings-section-body .u-field .field .u-field-link {
+    font-size: 18px;
+    font-family: $font_1;
+    width: 100%;
+    border: 1px solid #7d1419!important;
+    color: #7d1419!important;
+    padding: 11px 14px;
+    line-height: normal;
+    &:hover {
+	color: #ffffff!important;
+    }
+    &:active {
+	color: #ffffff!important;
+    }
+}
+
+.login-register .form-field input, .financial-assistance-wrapper .financial-assistance-form .form-field input {
+	border-radius: 5px!important;
+}
+.login-register .form-field input, .financial-assistance-wrapper .financial-assistance-form .form-field input, .login-register .form-field select, .financial-assistance-wrapper .financial-assistance-form .form-field select, .login-register .form-field textarea, .financial-assistance-wrapper .financial-assistance-form .form-field textarea {
+	outline: none!important;
+}
+
+
+/*
+
 Login pages styling
 
 */
