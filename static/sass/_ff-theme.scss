@@ -712,24 +712,18 @@ Course experience styling
 
 */
 
-.wrapper-course-material ol.course-tabs li a {
+.wrapper-course-material ol.course-tabs li {
     
-    active {
-    
-    background-color: $color_falu_red_approx;
-    }
-    
+    background-color: #7d1419;
+    border-radius: 3px;
 }
 
-.wrapper-course-material ol.course-tabs li a{
+.wrapper-course-material ol.course-tabs li a {
     
-    hover {
-    
-     background-color: $color_falu_red_approx;
-    
-    } 
-    
+    color: #ffffff;
 }
+
+
 
 #global-navigation .content-wrapper .wrapper-profile .profile profile-self {
     
