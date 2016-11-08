@@ -5,10 +5,10 @@
 
 
 //Main Color Variables
-$main-color: #f7691f;
-$dark-color: #ea281f; //Link Color
-$light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
-$bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
+$main-color: ;
+$dark-color: ; //Link Color
+$light-color: ; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
+$bg-color: ; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Main BG Color Variables
 $main-bg: #822537;
@@ -299,20 +299,21 @@ Course experience styling
     
      background-color: $color_falu_red_approx;
     
-    }
-    
+    } 
     
 }
 
-body.view-in-course .wrapper-course-material .course-material, body.view-in-course .wrapper-preview-menu .preview-menu {
+.profile profile-self {
     
-    background-color: #d6d9bb;
+    padding-bottom: 50px;
 }
 
-.wrapper-preview-menu {
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong {
     
-    background-color: none;
+    background-image: none !important;
+    background-color: #7d1419;
 }
+
 
 /*
 
