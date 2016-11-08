@@ -401,7 +401,7 @@ Forgot Password
 		font-size: 18px;
 		font-weight: 700;
 		line-height: 24px;
-		color: $color_sea_nymph_80_approx24;
+		color: rgba(121, 151, 151, 0.8);
 		// padding-bottom:18px;
 	}
 	ul {
@@ -424,12 +424,12 @@ Forgot Password
 
 .login-register .submission-success, .financial-assistance-wrapper .financial-assistance-form .submission-success {
 	box-shadow: none!important;
-	border-bottom: 3px solid $color_tana_approx!important;
+	border-bottom: 3px solid #d6d9bb!important;
 	background: inherit!important;
 }
 
 #login-form > div:nth-child(2) > div.js-reset-success.status.submission-success > h4,#password-reset-complete > div > h4 {
-	color: $color_tana_approx!important;
+	color: #d6d9bb!important;
 	padding-bottom: 18px;
 }
 
