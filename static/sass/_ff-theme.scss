@@ -505,12 +505,24 @@ Login pages styling
 
 */
 
+.login-register .section-title {
+    
+    padding-top: 100px!important;
+}
+
+
 .login-register .nav-btn {
     
-    background-color: #7d1419;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: bold;
+    background-color: #7d1419!important;
+    text-transform: uppercase!important;
+    color: #ffffff!important;
+    font-weight: bold!important;
+    border: none!important;
+    
+    &:hover {
+        
+        background-color: $main-bg-25;
+    }
 }
 
 .login-register .section-title h2 {
