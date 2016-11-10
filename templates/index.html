@@ -97,13 +97,13 @@ from microsite_configuration import microsite
                                                font-weight: bold;
                                                text-align: center;
                                                color: #000000;
-                                               padding-top:100px
-                                               padding-left:350px
+                                               padding-top:100px;
+                                               padding-left:350px;
                                                padding-right:350px">
                                         WHAT IS FAMILIES FIRST CORPORATE TRAINING
                                     </h3>
 
-                                    <p style="margin:0px auto;
+                                    <p style="margin:0 auto;
                                               padding-left:200px;
                                               padding-right:200px;
                                               padding-top:100px;
@@ -122,7 +122,7 @@ from microsite_configuration import microsite
                                                                   padding: 20px 0px;
                                                                   border-radius: 40px;
                                                                   background-color: #7d1419;
-                                                                  margin: 0px auto;
+                                                                  margin: 0 auto;
                                                                   ">
                                         <div id="text-lm" style="
                                                                  font-family: HelveticaNeue;
@@ -172,7 +172,10 @@ from microsite_configuration import microsite
             %endfor
             </ul>
             
-            <div class="custom-btn" href="/courses" style="max-width: 280px;
+            
+        </section>
+        
+        <div class="custom-btn" style="max-width: 280px;
                 padding:20px;
                 border-radius: 40px;
                 background-color: #7d1419;
@@ -180,7 +183,7 @@ from microsite_configuration import microsite
                 margin-top:1100px;
                 ">
               
-                  <a style="
+                  <a href="/courses" style="
                             font-family: HelveticaNeue!important;
                             font-size: 24px;
                             font-weight: bold;
@@ -190,7 +193,6 @@ from microsite_configuration import microsite
                             ">MORE COURSES</a>
               
               </div>
-        </section>
         ## in case there are courses that are not shown on the homepage, a 'View all Courses' link should appear
         % if settings.HOMEPAGE_COURSE_MAX and len(courses) > settings.HOMEPAGE_COURSE_MAX:
           <div class="courses-more">
