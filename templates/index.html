@@ -145,9 +145,10 @@ from microsite_configuration import microsite
     
     <div class="courses-heading"
          
-         style="width: 462.3px;
+         style="width: 350px;
             height: 38px;
             margin: 0 auto;
+            padding-top: 100px;
             ">
          
          
@@ -171,10 +172,7 @@ from microsite_configuration import microsite
             %endfor
             </ul>
             
-            
-        </section>
-        
-        <div class="custom-btn" style="max-width: 280px;
+            <div class="custom-btn" style="max-width: 280px;
                 padding:20px;
                 border-radius: 40px;
                 background-color: #7d1419;
@@ -192,6 +190,10 @@ from microsite_configuration import microsite
                             ">MORE COURSES</a>
               
               </div>
+            
+        </section>
+        
+        
         ## in case there are courses that are not shown on the homepage, a 'View all Courses' link should appear
         % if settings.HOMEPAGE_COURSE_MAX and len(courses) > settings.HOMEPAGE_COURSE_MAX:
           <div class="courses-more">
