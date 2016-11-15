@@ -688,9 +688,44 @@ Course list styling
 */
 
 
+.home .courses-container .courses .courses-listing .courses-listing-item:nth-child(4n+1) {
+    
+    clear: none!important;
+}
 
+.find-courses .courses-container .courses.no-course-discovery .courses-listing .courses-listing-item:nth-child(4n+1) {
+    
+    clear: none!important;
+}
 
+.courses-container .courses .course .course-info .course-title {
+    
+    font-family: HelveticaNeue!important;
+    font-size: 22px!important;
+    font-weight: bold!important;
+    color: #000000!important; 
+    
+}
 
+.courses-container .courses .course .course-info .course-code {
+    
+
+    font-family: HelveticaNeue!important;
+    font-size: 19px!important;
+    font-weight: bold!important;
+    color: #7d1419!important;
+    
+}
+
+.courses-container .courses .course .course-info .course-date {
+    
+    font-family: HelveticaNeue!important;
+    font-size: 19px!important;
+    font-weight: 100!important;
+    padding: 2px 18px!important;
+    color: #000000!important;
+    
+}
 
 
 // Custom Modifications to the default sytlesheet
