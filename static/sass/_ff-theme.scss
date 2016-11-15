@@ -639,13 +639,6 @@ Course list styling
 
 }
 
-.courses-container {
-    
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .highlighted-courses .courses{
     
     padding: 40px 0 15px;
@@ -657,11 +650,7 @@ Course list styling
     font-family: HelveticaNeue!important;
     font-size: 22px!important;
     font-weight: bold!important;
-    color: #000000!important;
-    position: absolute;
-    left: 7px;
-    top: 292px;
-    bottom: 654px;   
+    color: #000000!important; 
     
 }
 
@@ -678,11 +667,7 @@ Course list styling
     font-size: 19px!important;
     font-weight: bold!important;
     color: #7d1419!important;
-    position: absolute;
-    left: 6px;
-                            
-    top: 258px;
-    bottom: 720px;
+    
 }
 
 .courses-container .courses .course .course-info .course-date {
@@ -692,9 +677,6 @@ Course list styling
     font-weight: 100!important;
     padding: 2px 18px!important;
     color: #000000!important;
-    position: absolute;
-    left: 4px;
-    top: 400px;
     
 }
 
