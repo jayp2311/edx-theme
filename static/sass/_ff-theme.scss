@@ -612,6 +612,9 @@ Course list styling
 }
 
 // just to disable the wired alignment 
+
+/*
+
 .home .courses-container .courses .courses-listing .courses-listing-item:nth-child(4n+1) {
     
     clear: none!important;
@@ -620,6 +623,13 @@ Course list styling
 .find-courses .courses-container .courses.no-course-discovery .courses-listing .courses-listing-item:nth-child(4n+1) {
     
     clear: none!important;
+}
+
+.courses-container .courses{
+    float: left;
+    display: block;
+    width: 100%;
+
 }
 
 .find-courses .courses-container {
@@ -632,12 +642,7 @@ Course list styling
     padding-bottom: 0px!important;
 }
 
-.courses-container .courses{
-    float: left;
-    display: block;
-    width: 100%;
 
-}
 
 .highlighted-courses .courses{
     
@@ -678,6 +683,11 @@ Course list styling
     color: #000000!important;
     
 }
+
+
+*/
+
+
 
 
 
