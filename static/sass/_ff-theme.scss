@@ -618,7 +618,7 @@ Course list styling
 }
 
 .home .highlighted-courses {
-    
+    float: none!important;
     
 }
 
@@ -640,13 +640,14 @@ Course list styling
 }
 
 .courses-container .courses{
-    
+    float: none!important;
 
 }
 
 .courses-container {
     
-    ;
+    max-width: none!important;
+    float: none!important;
 }
 .courses-container .courses .course .course-image .cover-image {
     
