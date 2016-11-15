@@ -160,7 +160,7 @@ from microsite_configuration import microsite
         
       </div>
     
-    <section class="highlighted-courses" style="height:1352px!important;background-color:#d6d9bb!important;padding-top:0px!important">
+    <section class="highlighted-courses" style="">
 
       % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
         <section class="courses">
@@ -173,7 +173,7 @@ from microsite_configuration import microsite
             %endfor
             </ul>
             
-            <div class="custom-btn" style="max-width: 280px;
+            <!-- <div class="custom-btn" style="max-width: 280px;
                 padding:20px;
                 border-radius: 40px;
                 background-color: #7d1419;
@@ -188,15 +188,28 @@ from microsite_configuration import microsite
                             text-align: center;
                             color: #ffffff;
                             padding: 36px;
-                            ">MORE COURSES</a>
+                            ">MORE COURSES</a> 
               
-              </div>
+              </div> -->
         </section>
+        
+        
         ## in case there are courses that are not shown on the homepage, a 'View all Courses' link should appear
         % if settings.HOMEPAGE_COURSE_MAX and len(courses) > settings.HOMEPAGE_COURSE_MAX:
-          <div class="courses-more">
+          <div class="courses-more" style="44px 0px 64px 0px;border-radius: 40px;background-color: #7d1419;">
               
-            <a class="courses-more-cta" href="${marketing_link('COURSES')}"> ${_("View All Courses")} </a>
+                  <a class="custom-btn" href="/courses" style="
+                            font-family: HelveticaNeue!important;
+                            font-size: 24px;
+                            font-weight: bold;
+                            text-align: center;
+                            color: #ffffff;
+                            padding: 36px;
+                            ">MORE COURSES</a> 
+              
+              </div>
+              
+            <!-- <a class="courses-more-cta" href="${marketing_link('COURSES')}"> ${_("View All Courses")} </a> -->
           </div>
         % endif
       % endif
