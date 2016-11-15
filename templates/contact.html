@@ -1,0 +1,36 @@
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("Contact")}</%block>
+
+<main id="main" aria-label="Content" tabindex="-1">
+	<section class="container" id="contact-us">
+		<h1>
+			<fl>C</fl>ontact <fl>U</fl>s
+		</h1>
+		<div id="contact-icon">
+			<div class="contact-page-item">
+				<img src="/static/images/correct-icon.png"/>
+				<span class="contact-page-caption">contact@seedmoocs.org</span>
+			</div>
+			<div class="contact-page-item">
+				<img src="/static/images/FF-Assets/Logo.png"/>
+                <span class="contact-page-caption"><p>Families First <br> 80 Joseph E. Lowery Blvd, NW
+ <br> Atlanta, GA 30314 <br> 404-853-2800 </p></span>
+			</div>
+			<div class="contact-page-item">
+				<img src="/static/images/twitter.png"/>
+				<span class="contact-page-caption">Twitter</span>
+			</div>
+			<div class="contact-page-item">
+				<img src="/static/images/facebook.png"/>
+				<span class="contact-page-caption">Facebook</span>
+			</div>
+			<div class="contact-page-item">
+				<img src="/static/images/instagram.png"/>
+				<span class="contact-page-caption">Instagram</span>
+			</div>
+		</div>
+	</section>
+</main>
