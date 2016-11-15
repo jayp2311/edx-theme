@@ -687,6 +687,28 @@ Course list styling
 
 */
 
+.find-courses .courses-container {
+    
+    padding: 40px 10px 0 10px;
+}
+
+.find-courses {
+    
+    padding-bottom: 0px!important;
+}
+
+
+.highlighted-courses .courses{
+    
+    padding: 40px 0 15px;
+}
+
+
+.courses-container .courses .course {
+    
+    border-bottom: 3px solid $color_falu_red_approx!important;
+    
+}
 
 .home .courses-container .courses .courses-listing .courses-listing-item:nth-child(4n+1) {
     
