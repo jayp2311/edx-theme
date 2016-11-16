@@ -604,6 +604,8 @@ Course list styling
     
     margin-bottom: 100px!important;
     margin-right: 100px!important;
+    width: 250px;
+    height: 400px;
     box-sizing: border-box;
     background-color: #ffffff!important;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.24)!important;
@@ -711,7 +713,7 @@ Course list styling
     display: block;
     float: none!important;
     margin: 0 auto;
-    width: 1080px;
+    width: auto!important;
     padding-left: 120px!important;
 }
 
