@@ -530,6 +530,83 @@ textarea:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="e
 	padding: 4px 11px;
 }
 
+/*
+
+About page styling
+
+*/
+
+nav#about-menu{
+    
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+a.about {
+    
+    font-family: HelveticaNeue;
+    text-transform: uppercase;
+    font-style: inherit;
+    
+}
+
+/*
+
+Contact-us
+
+*/
+
+
+#contact-us {
+	max-width: 760px;
+	h1 {
+		font-size: 28px;
+		font-weight: 700;
+		font-family: HelveticaNeue;
+		line-height: 24px;
+		color: rgba(121, 151, 151, 0.8);
+		text-transform: uppercase;
+		text-align: left;
+		top: 56px;
+		padding-top: 17px;
+		padding-bottom: 120px;
+		position: relative;
+		fl {
+			font-size: 32px;
+		}
+	}
+	img {
+		height: 104px;
+		width: 104px;
+		border-radius: 100px;
+	}
+	#contact-icon {
+		position: relative;
+		margin: 0 auto;
+		margin-left: 18px;
+	}
+	.contact-page-item {
+		vertical-align: top;
+		display: inline-block;
+		text-align: center;
+		width: 130px;
+		margin-left: 83px;
+	}
+	.contact-page-caption {
+		display: block;
+		color: #4A4A4A;
+		font-size: 18px;
+		font-weight: 400;
+		font-family: Helvetica;
+		line-height: 24px;
+		width: 250px;
+		text-align: center;
+		margin-left: -55px;
+		padding-top: 28px;
+		padding-bottom: 80px;
+	}
+}
 
 
 /*
