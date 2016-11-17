@@ -545,10 +545,33 @@ nav#about-menu{
 
 a.about {
     
-    font-family: HelveticaNeue;
-    text-transform: uppercase;
-    font-style: inherit;
+    font-family: HelveticaNeue!important;
+    text-transform: uppercase!important;
+    font-style: inherit!important;
     
+}
+
+a.career {
+    
+    font-family: HelveticaNeue!important;
+    text-transform: uppercase!important;
+    font-style: inherit!important;
+    
+}
+
+a.contact {
+    
+    font-family: HelveticaNeue!important;
+    text-transform: uppercase!important;
+    font-style: inherit!important;
+    
+}
+
+.container.about .vision.message h2{
+    
+    font-size: 22px;
+    font-family: HelveticaNeue;
+    color: #000000;
 }
 
 /*
