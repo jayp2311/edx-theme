@@ -538,6 +538,18 @@ Course experience styling
 
 */
 
+body.discussion .course-tabs .right .new-post-btn {
+    
+    background-color: none!important;
+    background-image: none!important;
+    border: none!important;
+    
+    &:hover {
+        color: $main-bg-25;
+    }
+}
+
+
 .view-profile .profile-self .wrapper-profile-field-account-privacy {
     
     background-color: #d6d9bb!important;
