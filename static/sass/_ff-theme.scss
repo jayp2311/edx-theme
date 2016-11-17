@@ -569,9 +569,9 @@ a.contact {
 
 .container.about .vision.message h2{
     
-    font-size: 22px;
-    font-family: HelveticaNeue;
-    color: #000000;
+    font-size: 22px!important;
+    font-family: HelveticaNeue!important;
+    color: #000000!important;
 }
 
 /*
@@ -906,7 +906,7 @@ header.global {
         height: 40px;
         border-radius: 20px!important;
         text-align: center;
-        margin-left: 620px;
+        margin-left: 640px;
         margin-top: 3px!important;
         background-color: #ffffff;
         
