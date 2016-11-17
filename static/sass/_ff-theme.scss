@@ -545,12 +545,12 @@ header.global.slim h1.logo img {
 
 body.discussion .course-tabs .right .new-post-btn {
     
-    background-color: none!important;
+    background-color: #7d1419!important;
     background-image: none!important;
     border: none!important;
     
-    &:hover {
-        color: $main-bg-25
+    a:hover {
+        color: $main-bg-25;
     }
 }
 
