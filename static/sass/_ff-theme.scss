@@ -538,6 +538,11 @@ Course experience styling
 
 */
 
+header.global.slim h1.logo img {
+    
+    height: 60px!important;
+}
+
 body.discussion .course-tabs .right .new-post-btn {
     
     background-color: none!important;
