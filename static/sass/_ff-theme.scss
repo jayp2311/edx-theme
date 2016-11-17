@@ -620,7 +620,7 @@ section.container.about {
 		&:after{
 			display: block;
 			color: #7d1419;
-			background-color: #7d1419;
+			//background-color: #7d1419;
 			height: 1px;
 			position: relative;
 			top: 54px;
@@ -652,6 +652,11 @@ input.print {
     
     margin-bottom: 30px;
     margin-top: 30px;
+}
+
+static-container{
+    
+    text-align: center;
 }
 
 
