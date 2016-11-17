@@ -1,0 +1,133 @@
+## mako
+<%!
+  from django.core.urlresolvers import reverse
+  from django.utils.translation import ugettext as _
+%>
+<%namespace name='static' file='/static_content.html'/>
+
+<%inherit file="/main.html" />
+
+<%block name="title"><title>${_('About')}</title></%block>
+
+<%block name="js_extra">
+  <script type="text/javascript">
+    $(function() {
+      $('section.message').hide();
+      $('#about-menu a').removeClass('active');
+      window.scrollTo(0,0);
+      var hash = window.location.hash
+
+      if (hash) {
+        $('section' + hash).show();
+        $('#about-menu a.' + hash.substring(1)).addClass('active');
+      } else {
+        $('section#about').show();
+        $('#about-menu a.about').addClass('active');
+      }
+
+      $('#about-menu a').click(function(event) {
+        event.preventDefault();
+        $('#about-menu a').removeClass('active');
+        $(this).addClass('active');
+        var clickId = "section" + $(this).attr('href');
+        $('section.message').hide();
+        $(clickId).show();
+      });
+    });
+  </script>
+</%block>
+
+<section class="container about" style="width: auto;">
+  <nav id="about-menu">
+    <a href="#about" class="about active">${_('About')}</a>
+    <a href="#careers" class="careers">${_('Careers')}</a>
+    <a href="#contact" class="contact">${_('Contact')}</a>
+  </nav>
+
+  <section class="vision">
+
+## About Section ##
+    <section class="message left" id="about">
+      <div class="photo">
+        <!--
+            Photo License: CC0 Public Domain (Free for commercial use / No attribution required)
+            https://pixabay.com/en/book-books-circle-curly-education-2869/
+        -->
+        <img src="/static/images/FF-Assets/Who%20We%20Are%20image.JPG" alt="" />
+      </div>
+      <article>
+        <h2>${_('About')}</h2>
+
+        <p style="font-size:20px;font-family:HelveticaNeue;line-height:1.6">For the last 126 years, Families First has been providing empowering solutions for Atlanta’s most vulnerable population by connecting, strengthening, and sustaining families. As we’ve continued to grow, needs have changed. Family dynamics are different. Children are forced to grow up faster today than ever before. At Families First, we are constantly adjusting to the needs of our community, leveraging donations more efficiently, and working toward long-term, family sustainability.
+To continue providing cutting edge services for families, Families First is committed to continuing education for its staff. By doing so, staff is required to commit to earning a minimum of hours based on your position and programs. These hours can be earned at in-person events or through online courses through the edX educational platform.
+Open edX is the open-source educational platform developed by edX and its open source partners, including leading institutions. </p>
+
+        <p>&nbsp;</p>
+      </article>
+      <hr class="fade-right-hr-divider">
+    </section>
+
+## Careers Section ##
+    <section class="message left" id="careers">
+      <div class="photo">
+        <!--
+            Photo License: CC0 Public Domain (Free for commercial use / No attribution required)
+            https://pixabay.com/en/man-corporate-businessman-suit-tie-871960/
+        -->
+        <img src="${static.url('themes/ff-theme/static/images/careers.jpg')}" alt="" />
+      </div>
+      <article>
+        <h2>${_('Careers')}</h2>
+        
+        <p>Your job postings go here!</p>
+
+        <p>&nbsp;</p>
+      </article>
+      <hr class="fade-right-hr-divider">
+    </section>
+
+## Contact Section ##
+    <section class="message left" id="contact">
+      <div class="photo">
+        <!--
+            Photo License: CC0 Public Domain (Free for commercial use / No attribution required)
+            https://pixabay.com/en/network-cobweb-dewdrop-586177/
+        -->
+        <img src="${static.url('themes/ff-theme/static/images/contact.jpg')}" alt="" />
+      </div>
+      <article id="stanford-OpenEdX-contact">
+        <h2>${_('Contact Us')}</h2>
+          
+		<div id="contact-icon">
+			<div class="contact-page-item">
+				<img src="/static/images/correct-icon.png"/>
+				<span class="contact-page-caption">contact@seedmoocs.org</span>
+			</div>
+			<div class="contact-page-item">
+				<img src="/static/images/FF-Assets/Logo.png"/>
+                <span class="contact-page-caption"><p>Families First <br> 80 Joseph E. Lowery Blvd, NW
+ <br> Atlanta, GA 30314 <br> 404-853-2800 </p></span>
+			</div>
+			<div class="contact-page-item">
+				<img src="/static/images/twitter.png"/>
+				<span class="contact-page-caption">Twitter</span>
+			</div>
+			<div class="contact-page-item">
+				<img src="/static/images/facebook.png"/>
+				<span class="contact-page-caption">Facebook</span>
+			</div>
+			<div class="contact-page-item">
+				<img src="/static/images/instagram.png"/>
+				<span class="contact-page-caption">Instagram</span>
+			</div>
+		</div>
+
+        <p>If you have questions or issues with the edX site, please send an IT ticket to: technicalsupport@familiesfirst.org</p>
+
+        <p>&nbsp;</p>
+      </article>
+      <hr class="fade-right-hr-divider">
+    </section>
+  </section>
+
+</section>
