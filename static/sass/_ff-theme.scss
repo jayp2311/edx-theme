@@ -3,6 +3,39 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i');
 
+
+@font-face {
+    
+    font-family: "Arrial-Narrow";
+    src: url('/static/fonts/arial-narrow.ttf') format('truetype');
+    
+    font-style:normal;
+}
+
+@font-face {
+    
+    font-family: "Arrial-Narrow";
+    src: url('/static/fonts/arial-narrow-italic.ttf') format('truetype');
+    
+    font-style:italic;
+}
+
+@font-face {
+    
+    font-family: "Arrial-Narrow";
+    src: url('/static/fonts/arial-narrow-bold.ttf') format('truetype');
+    
+    font-style:normal;
+}
+
+@font-face {
+    
+    font-family: "Arrial-Narrow";
+    src: url('/static/fonts/arial-narrow-bold-italic.ttf') format('truetype');
+
+    font-style:italic;
+}
+
 //-----------------
 
 //  Color variables (from Stanford palette unless noted)
