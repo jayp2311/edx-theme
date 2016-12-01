@@ -844,10 +844,6 @@ Course experience styling
 
 */
 
-header.global.slim h1.logo img {
-    
-    height: 60px!important;
-}
 
 body.discussion .course-tabs .right .new-post-btn {
     
@@ -1088,21 +1084,15 @@ Course list styling
 
 
 // Custom Modifications to the default sytlesheet
-.logo { 
-    
-    height: 60px;
-    width: 160px;
-    margin-top: 10px!important;
-    }
 
 header.global nav {
     
     padding: 16px 10px 0!important;
 }
 
-header.global h1.logo {
+/*header.global h1.logo {
     margin: -2px 39px -10px 0!important;
-}
+} */
 
 
 header.global {
