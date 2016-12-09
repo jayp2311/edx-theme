@@ -231,15 +231,15 @@ header.global .user a.user-link div {
 
 header.global.slim h1.logo img {
     
-    height: 72px !important;
-    width: 250px !important;
+    height: 76px !important;
+    width: 200px !important;
     
     max-width: none!important;
     
 }
 
 img {
-    max-width: none;
+    max-width: none!important;
     height: 76px;
     width: 200px;
 }
