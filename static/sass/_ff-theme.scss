@@ -220,6 +220,11 @@ Header Styling
 
 */
 
+img {
+    
+    max-width: inherit;
+}
+
 header.global .user a.user-link div {
     
     text-transform: uppercase;
